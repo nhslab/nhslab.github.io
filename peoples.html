@@ -24,10 +24,10 @@ title: Команда
 	<div id="text">
 	
 		<h2><a href="{{ people.url }}">{{ people.name }}</a></h2>
-		<h3>{{ people.position }}</h3>
+		<p>{{ people.position | markdownify }}</p>
 		<p>{{ people.position2 | markdownify }}</p>
 		<br>
     </div>
+	<br>
   {% endfor %}
 </body>
-

@@ -1,7 +1,6 @@
 ---
 name: Воликов Александр
-position: Младший научный сотрудник
-position2: Кандидат химических наук
+position: Младший научный сотрудник <br>Кандидат химических наук
 photo: /assets/images/avtatars/volikov.jpg
 ---
 

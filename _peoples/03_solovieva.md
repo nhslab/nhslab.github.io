@@ -1,6 +1,7 @@
 ---
 name: Соловьева Александра
 position: аспирант 2-го года обучения
+photo: /assets/images/avtatars/nophoto.jpg
 ---
 
 Образование: МГУ Факультет Почвоведения

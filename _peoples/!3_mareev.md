@@ -1,6 +1,7 @@
 ---
 name: Мареев Никита
 position: Младший научный сотрудник
+photo: /assets/images/avtatars/nophoto.jpg
 ---
 
 Образование: Химический факультет МГУ

@@ -1,7 +1,6 @@
 ---
 name: Константинов Андрей Иванович
-position: Старший научный сотрудник
-position2: Кандидат юридических наук
+position: Старший научный сотрудник <br>Кандидат юридических наук
 photo: /assets/images/avtatars/konstantinov.jpg
 ---
 
