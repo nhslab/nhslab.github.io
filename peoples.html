@@ -1,0 +1,16 @@
+---
+layout: default
+title: Команда
+---
+<h1>Команда</h1>
+
+<ul>
+  {% for people in site.peoples %}
+    <li>
+      <h2><a href="{{ people.url }}">{{ people.name }}</a></h2>
+      <h3>{{ people.position }}</h3>
+      <p>{{ people.photo | markdownify }}</p>
+	  <p>{{ people.position2 | markdownify }}</p>
+    </li>
+  {% endfor %}
+</ul>

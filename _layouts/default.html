@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+
+    {% include meta.html %}
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
+
+  <body>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="/assets/images/site-logo/nhslab.png" /></a>
+
+          <div class="site-info">
+            <h1 class="site-name"><a href="{{ site.baseurl }}/">Perminova Lab</a></h1>
+            <p class="site-description">Лаборатория природных гуминовых систем<br>Кафедра мединской химии и тонкого органического синтеза</p>
+          </div>
+		  
+		  <a href="http://www.chem.msu.ru/rus/weldept.html" class="site-avatar"><img src="/assets/images/site-logo/chemdep.png" /></a>
+          
+		  <nav>
+            <a href="{{ site.baseurl }}/">Главная</a>
+			<a href="{{ site.baseurl }}/science">Наука</a>
+			<a href="{{ site.baseurl }}/peoples">Команда</a>
+			<a href="{{ site.baseurl }}/journals">Публикации</a>
+			<a href="{{ site.baseurl }}/contacts">Контакты</a>
+          </nav>
+        </header>
+      </div>
+    </div>
+
+    <div id="main" role="main" class="container">
+      {{ content }}
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          {% include svg-icons.html %}
+        </footer>
+      </div>
+    </div>
+
+    {% include analytics.html %}
+  </body>
+</html>
