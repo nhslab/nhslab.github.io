@@ -2,7 +2,7 @@
 name: Константинов Андрей Иванович
 position: Старший научный сотрудник
 position2: Кандидат юридических наук
-photo: <img src="/assets/images/avtatars/konstantinov.jpg" height="200" align="middle"/>
+photo: /assets/images/avtatars/konstantinov.jpg
 ---
 
 Образование: Химический факультет МГУ

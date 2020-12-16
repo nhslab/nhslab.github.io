@@ -1,8 +1,8 @@
 ---
 name: Перминова Ирина Васильевна
-position: Заведущий лаборатории
+position: Заведущая лаборатории. Главный научный сотрудник
 position2: Профессор. Доктор химических наук
-photo: <img src="/assets/images/avtatars/perminova.jpg" height="200" align="middle"/>
+photo: /assets/images/avtatars/perminova.jpg
 ---
 
 Тут нужно по-подробнее

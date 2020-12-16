@@ -2,7 +2,7 @@
 name: Воликов Александр
 position: Младший научный сотрудник
 position2: Кандидат химических наук
-photo: <img src="/assets/images/avtatars/volikov.jpg" height="200" align="middle"/>
+photo: /assets/images/avtatars/volikov.jpg
 ---
 
 Образование: Химический факультет МГУ
