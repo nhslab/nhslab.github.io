@@ -1,0 +1,30 @@
+---
+layout: default
+permalink: /journals/
+---
+
+<h1>Последние публикации</h1>
+{% assign sorted = site.papers | sort: 'year' | reverse %}
+{% for item in sorted %}
+	
+	{% if item.year >= 2020 %}		
+		{% if item.graph_abstract != 0 %}
+			<a href="{{ item.url }}/" ><img src="{{ item.graph_abstract }}" height=200/></a>
+		{% endif %}
+		<p>{{ item.authors }}</p>
+		<p>{{ item.title }}</p>
+		<p>{{ item.journal }}, {{ item.year }}, {{ item.pages }}, <a href="http://dx.doi.org/{{ item.doi }}">doi: {{ item.doi }}</a></p>
+		<a href="{{ item.url }}">Подробнее</a>
+		<br>
+		<br>
+	{% endif %}
+	
+{% endfor %}
+<br>
+
+<style>
+   h9 {
+    font-size: 125%; 
+   }
+ </style>
+<h9><a href="/journals_all">Все публикации</a></h9>

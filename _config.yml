@@ -11,9 +11,14 @@ description: Лаборатория природных гуминовых сис
 #
 # Flags below are optional
 #
+plugins: [jekyll-paginate]
+paginate: 10
+paginate_path: /page:num/
 
 collections:
   peoples:
+    output: true
+  papers:
     output: true
 
 defaults:
@@ -31,22 +36,26 @@ defaults:
       path: ""
     values:
       layout: "default"
+  - scope:
+      path: ""
+      type: "papers"
+    values:
+      layout: "papers"
 
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
   email: iperminova@gmail.com
-  facebook:
+  facebook: future-link
   flickr:
   github: nhslab
   instagram: perminovalab
   linkedin:
   pinterest:
   rss: # just type anything here for a working RSS icon
-  twitter: 
+  twitter: future-link
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: # anything in your profile username that comes after plus.google.com/
+  youtube: /<your_long_string>
 
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts

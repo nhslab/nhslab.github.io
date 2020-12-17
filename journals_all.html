@@ -1,0 +1,23 @@
+---
+layout: page
+permalink: /journals_all/
+---
+
+{% assign sorted = site.papers | sort: 'year' | reverse %}
+{% for item in sorted %}
+	
+	<li>
+		<p>{{ item.authors }}, {{ item.title }}. {{ item.journal }}, {{ item.year }}, {{ item.pages }}, <a href="http://dx.doi.org/{{ item.doi }}">doi: {{ item.doi }}</a></p>
+		<a href="{{ item.url }}">Подробнее</a>
+		<br>
+	</li>
+	
+{% endfor %}
+<br>
+
+<style>
+   h9 {
+    font-size: 125%; 
+   }
+ </style>
+<h9><a href="/journals">Последние публикации</a></h9>
