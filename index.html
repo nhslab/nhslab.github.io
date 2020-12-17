@@ -7,7 +7,7 @@ layout: default
 {% for post in paginator.posts %}
 	{% if post.pin == 1 %}
 	
-		<h2>Закреплённые новости</h2>
+		<h1>Закреплённые новости</h1>
 		
 		<article class="post">
 		
@@ -24,7 +24,7 @@ layout: default
 		  <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Читать далее</a>
 		</article>
 		
-		<h2>Все новости</h2>
+		<h1>Все новости</h1>
 	
 	{% endif %}
 {% endfor %}

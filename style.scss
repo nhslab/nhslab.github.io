@@ -46,22 +46,26 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   line-height: 2;
-  font-size: 22px;
+  font-size: 24px;
   a {
     color: inherit;
   }
 }
 
 h2 {
-  font-size: 18px;
+  font-size: 22px;
+  color: #865D3F;
+  a {
+    color: inherit;
+  }
 }
 
 h3 {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 h4 {
-  font-size: 14px;
+  font-size: 18px;
   color: $gray;
 }
 
@@ -159,6 +163,7 @@ img {
   
   margin-bottom: 50px;
   border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
   background-color: #FCF2EB;
 }
 
