@@ -12,10 +12,3 @@ graph_abstract: /assets/images/graph_abstract/2020_chemosphere.jpg
 # Abstract
 
 Humic substances (HS) in the aqueous solutions can be considered as colloidal particles formed by amphiphilic units. HS form micelles-like structures at concentrations close to 5 g/L. However colloidal behavior of HS at concentrations below 100 mg/L is unknown. Using radiotracer assay we have shown that in this concentration range HS form rare adsorption layers at the liquid/liquid interface and penetrate into the organic phase with the distribution ratio close to 10−3. We found that pH and HS molecular weight strongly influence on the distribution ratio but do not significantly change the adsorption. Furthermore, colloidal properties of HS are strongly depending on its origin: the highest surface activity was shown for HS separated from peat and the least was observed for HS separated from soils. We anticipate our assay to be a helpful tool for detailed analysis and modeling HS and humic-like materials colloidal behavior in the environment.
-
-# Keywords
-
-Humic substances
-Tritium labeled compounds
-Adsorption at the liquid/liquid interface
-Distribution coefficient in the liquid/liquid system

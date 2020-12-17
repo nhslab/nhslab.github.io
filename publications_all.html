@@ -1,0 +1,18 @@
+---
+layout: page
+permalink: /publications_all/
+---
+
+<p><a href="/publications">Последние</a>&nbsp &nbsp <a href="/publications_all"  style="color: red;">Все публикации</a></p> 
+<br>
+{% assign sorted = site.papers | sort: 'year' | reverse %}
+{% for item in sorted %}
+	
+	<li>
+		<p>{{ item.authors }}, {{ item.title }}. {{ item.journal }}, {{ item.year }}, {{ item.pages }}, <a href="http://dx.doi.org/{{ item.doi }}">doi: {{ item.doi }}</a></p>
+		<p><a href="{{ item.url }}">Подробнее</a><p>
+	</li>
+	
+{% endfor %}
+<br>
+<p>Раздел в разработке, постепенно все публикации будут добавлены, а пока полный список можно посмотреть на сайте <a href="https://istina.msu.ru/profile/iperminova/#articles">ИСТИНА</a></p>

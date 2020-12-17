@@ -1,9 +1,10 @@
 ---
 layout: default
-permalink: /journals/
+permalink: /publications/
 ---
 
-<h1>Последние публикации</h1>
+<p><a href="/publications" style="color: red;">Последние</a> &nbsp &nbsp <a href="/publications_all">Все публикации</a></p> 
+<br>
 {% assign sorted = site.papers | sort: 'year' | reverse %}
 {% for item in sorted %}
 	
@@ -16,15 +17,7 @@ permalink: /journals/
 		<p>{{ item.journal }}, {{ item.year }}, {{ item.pages }}, <a href="http://dx.doi.org/{{ item.doi }}">doi: {{ item.doi }}</a></p>
 		<a href="{{ item.url }}">Подробнее</a>
 		<br>
-		<br>
+		<hr noshade size="1">
 	{% endif %}
 	
 {% endfor %}
-<br>
-
-<style>
-   h9 {
-    font-size: 125%; 
-   }
- </style>
-<h9><a href="/journals_all">Все публикации</a></h9>
