@@ -4,20 +4,21 @@ permalink: /publications/
 ---
 
 <p><a href="/publications" style="color: red;">Последние</a> &nbsp &nbsp <a href="/publications_all">Все публикации</a></p> 
+
 <br>
+
 {% assign sorted = site.papers | sort: 'year' | reverse %}
-{% for item in sorted %}
+
+{% for item in sorted limit:15 %}
 	
-	{% if item.year >= 2020 %}		
-		{% if item.graph_abstract != 0 %}
+	{% if item.graph_abstract != 0 %}
 			<a href="{{ item.url }}/" ><img src="{{ item.graph_abstract }}" height=200/></a>
-		{% endif %}
-		<p>{{ item.authors }}</p>
-		<p>{{ item.title }}</p>
-		<p>{{ item.journal }}, {{ item.year }}, {{ item.pages }}, <a href="http://dx.doi.org/{{ item.doi }}">doi: {{ item.doi }}</a></p>
-		<a href="{{ item.url }}">Подробнее</a>
-		<br>
-		<hr noshade size="1">
 	{% endif %}
-	
+	<p>{{ item.authors }}</p>
+	<p>{{ item.title }}</p>
+	<p>{{ item.journal }}, {{ item.year }}, {{ item.pages }}, <a href="http://dx.doi.org/{{ item.doi }}">doi: {{ item.doi }}</a></p>
+	<a href="{{ item.url }}">Подробнее</a>
+	<br>
+	<hr noshade size="1">
+
 {% endfor %}
