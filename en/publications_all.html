@@ -1,0 +1,28 @@
+---
+layout: default_en
+permalink: /en/publications_all/
+---
+
+<style>
+	li{
+		margin:20px;
+	}
+</style>
+
+<p><a href="/en/publications">Last</a>&nbsp &nbsp <a href="/en/publications_all"  style="color: red;">All</a></p> 
+
+<br>
+
+{% assign sorted = site.papers | sort: 'year' | reverse %}
+{% for item in sorted %}
+	
+	<li>
+		<p>{{ item.authors }}, {{ item.title }}. {{ item.journal }}, {{ item.year }}, {{ item.pages }}, <a href="http://dx.doi.org/{{ item.doi }}">doi: {{ item.doi }}</a></p>
+		<p><a href="{{ item.url }}">More</a><p>
+	</li>
+	
+{% endfor %}
+
+<br>
+
+<p>under construction full here <a href="https://istina.msu.ru/profile/iperminova/#articles">ИСТИНА</a></p>

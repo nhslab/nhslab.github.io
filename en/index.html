@@ -1,6 +1,23 @@
 ---
 layout: default_en
 ---
+<p>Welcome to the website of the Natural humic system lab. We are a team of the scientists of the Lomonosov Moscow State University engaged with the humic substances research. The lab accounts for 10-20 researchers – scientists, Ph.D. and undergraduate students – of the Department of Chemistry. The leader of the group is Dr. Irina V. Perminova. The main topics of our research include studies on composition and structure of humics, studies on the chemical and toxicological aspects of interaction of humics with different ecotoxicants, studies on application of quantitative structure-activity relationship (QSAR) approach to the predictive modeling of the properties of humics. We all are the members of the CIS Chapter of the International Humic Substances Society (CIS IHSS). To find out more in detail about us and our research, you are very welcome to visit the other pages of our site. We are very glad to your visit and hope on you sharing with us your ideas and interests in your research.</p>
+
+<h2>Last paper</h2>
+
+{% assign sorted = site.papers | sort: 'year' | reverse %}
+{% for item in sorted limit:1 %}
+	
+	{% if item.graph_abstract != 0 %}
+			<a href="{{ item.url }}/" ><img src="{{ item.graph_abstract }}" height=300/></a>
+	{% endif %}
+	<p>{{ item.authors }}</p>
+	<p>{{ item.title }}</p>
+	<p>{{ item.journal }}, {{ item.year }}, {{ item.pages }}, <a href="http://dx.doi.org/{{ item.doi }}">doi: {{ item.doi }}</a></p>
+	<a href="{{ item.url }}">More</a>
+	<br>
+	<hr noshade size="1" color="#E9E9E9">
+
+{% endfor %}
 
 
-<p>English version of site under construction</p>

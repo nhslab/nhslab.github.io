@@ -1,5 +1,6 @@
 ---
 name: Григорьева Ирина
+name_en: Grigoryeva Irina
 position: аспирант 2-го года обучения
 photo: /assets/images/avtatars/nophoto.jpg
 status: phd

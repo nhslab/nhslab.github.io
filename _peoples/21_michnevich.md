@@ -1,5 +1,6 @@
 ---
 name: Михневич Татьяна
+name_en: Mikhnevich Tatyana
 position: студент 5-го курса
 photo: /assets/images/avtatars/nophoto.jpg
 status: student

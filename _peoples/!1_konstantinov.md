@@ -1,5 +1,6 @@
 ---
 name: Константинов Андрей Иванович
+name_en: Konstantinov Andrey
 position: Старший научный сотрудник <br>Кандидат юридических наук
 photo: /assets/images/avtatars/konstantinov.jpg
 status: postdoc
