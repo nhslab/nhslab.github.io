@@ -180,6 +180,26 @@ img {
   float: left;
   width: 140px;
   height: 140px;
+  margin-right: 25px;
+  margin-left: 10px;
+
+  @include mobile {
+    float: none;
+	width: 90px;
+	height: 90px;
+	margin: 5 auto;
+    display: block;
+  }
+
+  img {
+    border-radius: 5px;
+  }
+}
+
+.site-avatar2 {
+  float: right;
+  width: 140px;
+  height: 140px;
   margin-right: 10px;
   margin-left: 10px;
 
@@ -214,6 +234,12 @@ img {
   font-weight: 600;
   font-size: 28px;
   letter-spacing: 1px;
+  
+  @include mobile{
+	font-size: 20px;
+  
+  }
+  
 }
 
 .site-description {
