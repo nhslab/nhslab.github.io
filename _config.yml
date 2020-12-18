@@ -13,12 +13,16 @@ description: Лаборатория природных гуминовых сис
 #
 plugins: [jekyll-paginate]
 paginate: 10
-paginate_path: /page:num/
+paginate_path: "/news/page:num/"
 
 collections:
   peoples:
     output: true
   papers:
+    output: true
+  projects:
+    output: true
+  photos:
     output: true
 
 defaults:
@@ -41,6 +45,16 @@ defaults:
       type: "papers"
     values:
       layout: "papers"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "projects"
+  - scope:
+      path: ""
+      type: "photos"
+    values:
+      layout: "photos"
 
 # Includes an icon in the footer for each username you enter
 footer-links:

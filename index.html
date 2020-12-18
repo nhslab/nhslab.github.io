@@ -2,16 +2,14 @@
 layout: default
 ---
 
-
-
-{% for post in paginator.posts %}
+{% for post in site.posts %}
 	{% if post.pin == 1 %}
-	
-		<h1>Закреплённые новости</h1>
+		
+		<h2>Объявление</h2>
 		
 		<article class="post">
 		
-		  <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+		  <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
 		  
 		  {% if post.image  !=0 %}
 			<img src="{{post.image}}" height=200/>
@@ -24,58 +22,42 @@ layout: default
 		  <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Читать далее</a>
 		</article>
 		
-		<h1>Все новости</h1>
-	
 	{% endif %}
 {% endfor %}
 
-{% for post in paginator.posts %}
-	{% if post.pin != 1 %}
-	
-		<article class="post">
-			
-		  <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-		  
-		  {% if post.image  !=0 %}
-			<img src="{{post.image}}" height=200/>
-		  {% endif %}
-		  
-		  <div class="entry">
-			{{ post.excerpt }}
-		  </div>
+<h2>Последняя публикация</h2>
 
-		  <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Читать далее</a>
-		</article>
+{% assign sorted = site.papers | sort: 'year' | reverse %}
+{% for item in sorted limit:1 %}
 	
+	{% if item.graph_abstract != 0 %}
+			<a href="{{ item.url }}/" ><img src="{{ item.graph_abstract }}" height=300/></a>
 	{% endif %}
+	<p>{{ item.authors }}</p>
+	<p>{{ item.title }}</p>
+	<p>{{ item.journal }}, {{ item.year }}, {{ item.pages }}, <a href="http://dx.doi.org/{{ item.doi }}">doi: {{ item.doi }}</a></p>
+	<a href="{{ item.url }}">Подробнее</a>
+	<br>
+	<hr noshade size="1" color="#E9E9E9">
+
 {% endfor %}
 
-<br>
+<h2>Текущие проекты</h2>
 
-<!-- pagination -->
-{% if paginator.total_pages > 1 %}
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo;</a>
-  {% else %}
-    <span>&laquo; </span>
-  {% endif %}
+{% for item in site.projects %}
+	
+	{% if item.actual == 1 %}
+		
+		{% if item.logo != 0 %}
+				<a href="{{ item.url }}/" ><img src="{{ item.logo }}" height=70/></a>
+		{% endif %}
+		
+	{% endif %}
+	
+{% endfor %}
 
-  {% for page in (1..paginator.total_pages) %}
-    {% if page == paginator.page %}
-      <span class="webjeda">{{ page }}</span>
-    {% elsif page == 1 %}
-      <a href="/">{{ page }}</a>
-    {% else %}
-      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-    {% endif %}
-  {% endfor %}
+<h2>Фотогалерея</h2>
 
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"> &raquo;</a>
-  {% else %}
-    <span> &raquo;</span>
-  {% endif %}
-</div>
-{% endif %}
-
+{% for item in site.photos %}
+	<a href="{{ item.url }}/" ><img src="{{ item.image_path }}" class="photo_gallery_height"/></a>
+{% endfor %}

@@ -18,4 +18,4 @@ e-mail: [iperminova@gmail.com](mailto:iperminova@gmail.com)
 
 Мы в реальности:
 
-- группые фотографии в лаборатории и вне
+<img src="/assets/images/photo/10.jpg" class="photo_gallery_height"/>

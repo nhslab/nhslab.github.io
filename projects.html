@@ -1,0 +1,57 @@
+---
+layout: default
+permalink: /projects/
+---
+
+<p>Лаборатория активно ведёт свою работу в рамках как фундаментальных проектов (РНФ, РФФИ), так и для решения прикладных задач (Норникель, Иркутская компания, производители гуматов). Проводятся совместные работы со множеством других лабораторий внутри МГУ (ф-т почвоведения, физический ф-т), с другими организациями в Росси (ИСПМ РАН, Курчатовский институт ....), так и с зарубежными партнёрами (Германия, США)</p>
+
+<h2>Текущие проекты</h2>
+
+{% for item in site.projects %}
+	
+	{% if item.actual == 1 %}
+		
+		{% if item.logo != 0 %}
+				<a href="{{ item.url }}/" ><img src="{{ item.logo }}" height=70/></a>
+		{% endif %}
+		
+		<p>{{ item.company }}</p>
+		<p>{{ item.title }}</p>
+		<p>{{ item.dates }}</p>
+		
+		{% if item.co-executors != 0 %}
+			<p>Совместно с {{item.co-executors}}</p>
+		{% endif %}
+		
+		<a href="{{ item.url }}">Подробнее</a>
+		
+		<br>
+		<hr noshade size="1" color="#E9E9E9">
+		
+	{% endif %}
+	
+{% endfor %}
+
+<h2>Успешно выполненные проекты</h2>
+
+{% for item in site.projects %}
+	
+	{% if item.actual == 0 %}
+		
+		{% if item.logo != 0 %}
+				<a href="{{ item.url }}/" ><img src="{{ item.logo }}" height=70/></a>
+		{% endif %}
+		<p>{{ item.dates }}</p>
+		
+		<a href="{{ item.url }}">Подробнее</a>
+		<hr noshade size="1" color="#E9E9E9">
+		
+	{% endif %}
+	
+{% endfor %}
+
+<p>Раздел в разработке, постепенно все проекты будут добавлены, а пока полный список можно посмотреть на сайте <a href="https://istina.msu.ru/profile/iperminova/#projects">ИСТИНА</a></p>
+
+<h2>Мы сотрудничаем с</h2>
+
+<p>Раздел в разработке. Тут будут кликабельные логотипы институтов и организаций</p>
