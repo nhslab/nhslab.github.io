@@ -185,8 +185,10 @@ img {
 
   @include mobile {
     float: none;
+	width: 90px;
+	height: 90px;
+	margin: 10px;
     display: block;
-    margin: 0 auto;
   }
 
   img {
@@ -206,18 +208,19 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: #623C22;
   cursor: pointer;
   font-family: $helveticaNeue;
-  font-weight: 300;
+  font-weight: 600;
   font-size: 28px;
   letter-spacing: 1px;
 }
 
 .site-description {
-  margin: -5px 0 0 0;
-  color: $gray;
-  font-size: 16px;
+  margin-top: 3px;
+  margin-bottom: -12px;
+  color: #623C22;
+  font-size: 18px;
 
   @include mobile {
     margin: 3px 0;
@@ -229,6 +232,8 @@ nav {
   margin-top: 23px; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
   font-size: 18px;
+  font-weight: 300;
+  
 
   @include mobile {
     float: none;
@@ -241,8 +246,8 @@ nav {
     margin-right: 20px;
     color: $darkGray;
     text-align: left;
-    font-weight: 300;
-    letter-spacing: 1px;
+    font-weight: 600;
+    color: #623C22;
 
     @include mobile {
       margin: 0 10px;
