@@ -20,17 +20,20 @@
       <div class="container">
         <header class="masthead clearfix">
 		  
-		  <a href="{{ site.baseurl }}/" class="site-avatar"><img src="/assets/images/site-logo/nhslab.png" /></a>
+		  
 
           <div class="site-info">
-		  
+			<a href="{{ site.baseurl }}/" class="site-avatar"><img src="/assets/images/site-logo/nhslab.png" /></a>
+
             <h1 class="site-name"><a href="{{ site.baseurl }}/">Perminova Lab</a></h1>
 			
             <p class="site-description">Лаборатория природных гуминовых систем</p>
-			<p class = "site-description2">Кафедра мединской химии и тонкого органического синтеза</p>
-			<p class = "site-description3"><a href="http://www.chem.msu.ru/rus/weldept.html">Химический факультет МГУ им. М.В. Ломоносова</a></p>
-			
-			<nav>
+			<p class = "site-description">Кафедра медицинской химии и тонкого органического синтеза</p>
+			<p class = "site-description"><a href="http://www.chem.msu.ru/rus/weldept.html">Химический факультет МГУ им. М.В. Ломоносова</a></p>
+		  
+		  </div>
+		  <br>
+		  <nav>
 				<a href="{{ site.baseurl }}/" {% if page.url == "/" %}style="color: red;"{% endif %}>Главная</a>
 				<a href="{{ site.baseurl }}/science" {% if page.url == "/science/" %}style="color: red;"{% endif %}>Наука</a>
 				<a href="{{ site.baseurl }}/learning" {% if page.url == "/learning/" %}style="color: red;"{% endif %}>Студентам</a>
@@ -38,13 +41,10 @@
 				<a href="{{ site.baseurl }}/peoples" {% if page.url == "/peoples/" %}style="color: red;"{% endif %}>Команда</a>
 				<a href="{{ site.baseurl }}/publications" {% if page.url == "/publications/" or page.url == "/publications_all/" %}style="color: red;"{% endif %}>Публикации</a>
 				<a href="{{ site.baseurl }}/contacts" {% if page.url == "/contacts/" %}style="color: red;"{% endif %}>Контакты</a>
-			</nav>
+				<a href="{{ site.baseurl }}/mgumus" {% if page.url == "/mgumus/" %}style="color: red;"{% endif %}>MGUMUS</a>
+				<a href="{{ site.baseurl }}/en"><img src="/assets/images/site-logo/en.png" alt="switch to english" /></a>
+		  </nav>
 			
-          </div>
-		  
-		  <a href="http://www.humus.ru/ru" class="site-avatar2"><img src="/assets/images/site-logo/mgumus.png" /></a>
-          
-		  
         </header>
       </div>
     </div>
