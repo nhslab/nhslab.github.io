@@ -2,6 +2,7 @@
 name: Жиркова Анастасия
 position: аспирант 1-го года обучения
 photo: /assets/images/avtatars/zhirkova.jpg
+status: phd
 ---
 
 Образование: Химический факультет МГУ

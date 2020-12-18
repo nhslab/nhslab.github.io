@@ -60,16 +60,16 @@ defaults:
 footer-links:
   dribbble:
   email: iperminova@gmail.com
-  facebook: future-link
+  facebook: # just type anything here for a working RSS icon
   flickr:
   github: nhslab
-  instagram: perminovalab
+  instagram: # just type anything here for a working RSS icon
   linkedin:
   pinterest:
   rss: # just type anything here for a working RSS icon
-  twitter: future-link
+  twitter: # just type anything here for a working RSS icon
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: /<your_long_string>
+  youtube: # just type anything here for a working RSS icon
 
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts

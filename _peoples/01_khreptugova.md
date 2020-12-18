@@ -2,6 +2,7 @@
 name: Хрептугова Анна
 position: аспирант 2-го года обучения
 photo: /assets/images/avtatars/nophoto.jpg
+status: phd
 ---
 
 Образование: МГУ Факультет Почвоведения

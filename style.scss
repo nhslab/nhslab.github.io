@@ -178,8 +178,8 @@ img {
 
 .site-avatar {
   float: left;
-  width: 140px;
-  height: 140px;
+  width: 120px;
+  height: 120px;
   margin-right: 25px;
   margin-left: 10px;
 
@@ -195,8 +195,8 @@ img {
 .site-avatar2 {
 	
 	float: right;
-	width: 140px;
-	height: 140px;
+	width: 120px;
+	height: 120px;
 	margin-right: 10px;
 	margin-left: 10px;
 	
@@ -227,7 +227,7 @@ img {
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 600;
-  font-size: 28px;
+  font-size: 24px;
   letter-spacing: 1px;
   
   @include mobile{
@@ -241,7 +241,7 @@ img {
   margin-top: 3px;
   margin-bottom: 0px;
   color: #623C22;
-  font-size: 18px;
+  font-size: 16px;
 
   @include mobile {
     font-size: 15px;
@@ -251,9 +251,20 @@ img {
 
 .site-description2 {
   margin-top: 0px;
+  margin-bottom: 0px;
+  color: #623C22;
+  font-size: 16px;
+
+  @include mobile {
+    display: None
+  }
+}
+
+.site-description3 {
+  margin-top: 0px;
   margin-bottom: -12px;
   color: #623C22;
-  font-size: 18px;
+  font-size: 16px;
 
   @include mobile {
     display: None
