@@ -4,10 +4,6 @@ name_en: Khreptugova Anna
 position: аспирант 2-го года обучения
 photo: /assets/images/avtatars/nophoto.jpg
 status: phd
+istina: https://istina.msu.ru/profile/Khreptugova/
+email: 0
 ---
-
-Образование: МГУ Факультет Почвоведения
-
-Область научных интересов: 
-
-Хобби: 

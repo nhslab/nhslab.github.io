@@ -4,6 +4,8 @@ name_en: Volikov Alexander
 position: Младший научный сотрудник <br>Кандидат химических наук
 photo: /assets/images/avtatars/volikov.jpg
 status: postdoc
+istina: https://istina.msu.ru/profile/volikov/
+email: ab.volikov@gmail.com
 ---
 
 Образование: Химический факультет МГУ

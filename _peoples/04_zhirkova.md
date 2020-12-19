@@ -4,6 +4,8 @@ name_en: Zhirkova Anastasiya
 position: аспирант 1-го года обучения
 photo: /assets/images/avtatars/zhirkova.jpg
 status: phd
+istina: https://istina.msu.ru/profile/Zhirkova_AM/
+email: 0
 ---
 
 Образование: Химический факультет МГУ
