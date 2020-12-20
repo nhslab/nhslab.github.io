@@ -18,5 +18,5 @@ permalink: /contacts/
 ## Мы в реальной жизни
 
 Нас можно найти в основном здании Химического факультета в комнатах 429 или 430
-<hr>
-<a href="https://www.humus.ru" ><img src="/assets/images/site-logo/429.jpg" /></a>
+<hr color="white">
+<img src="/assets/images/site-logo/429.jpg" />
