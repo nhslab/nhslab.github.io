@@ -184,7 +184,8 @@ img {
   margin-left: 10px;
 
   @include mobile {
-    display: none
+    width: 90px;
+    height: 90px;
   }
 
   img {
