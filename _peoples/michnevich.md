@@ -4,6 +4,7 @@ name_en: Mikhnevich Tatyana
 position: студент 5-го курса
 photo: /assets/images/avtatars/michnevich.jpg
 status: student
+weight: 4
 istina: https://istina.msu.ru/profile/CherkasovaTA/
 email: 0
 ---

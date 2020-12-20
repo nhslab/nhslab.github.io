@@ -178,41 +178,22 @@ img {
 
 .site-avatar {
   float: left;
-  width: 160px;
-  height: 160px;
-  margin-right: 25px;
-  margin-left: 10px;
+  width: 150px;
+  height: 150px;
+  margin-right: 10px;
+  margin-left: 0px;
 
   @include mobile {
-    width: 120px;
-    height: 120px;
+    width: 110px;
+    height: 110px;
 	margin-right: 10px;
-  margin-left: 10px;
+  margin-left: 0px;
   }
 
   img {
     border-radius: 5px;
   }
 }
-
-.site-avatar2 {
-	
-	float: right;
-	width: 140px;
-	height: 140px;
-	margin-right: 10px;
-	margin-left: 10px;
-	
-	
-	@include mobile {
-		display: none
-	}
-
-	img {
-		border-radius: 5px;
-	}
-}
-
 
 .site-info {
   float: none;
@@ -249,28 +230,6 @@ img {
   @include mobile {
     font-size: 15px;
     margin: 3px 0;
-  }
-}
-
-.site-description2 {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  color: #623C22;
-  font-size: 18px;
-
-  @include mobile {
-    display: None
-  }
-}
-
-.site-description3 {
-  margin-top: 3px;
-  margin-bottom: -12px;
-  color: #623C22;
-  font-size: 18px;
-
-  @include mobile {
-    display: None
   }
 }
 

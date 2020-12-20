@@ -4,6 +4,7 @@ name_en: Perminova Irina
 position: главный научный сотрудник<br> Профессор. Доктор химических наук
 photo: /assets/images/avtatars/perminova.jpg
 status: head
+weight: 1
 istina: https://istina.msu.ru/profile/iperminova/
 email: iperminova@gmail.com
 ---
