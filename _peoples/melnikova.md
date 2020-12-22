@@ -2,7 +2,7 @@
 name: Мельникова Софья
 name_en: Melnikova Sophia
 position: студент 5-го курса
-photo: /assets/images/avtatars/nophoto.jpg
+photo: /assets/images/avtatars/melnikova.jpg
 status: student
 weight: 6
 istina: https://istina.msu.ru/workers/106221490/
