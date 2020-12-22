@@ -12,13 +12,13 @@ permalink: /en/publications_all/
 <p><a href="/en/publications">Last</a>&nbsp &nbsp <a href="/en/publications_all"  style="color: red;">All</a></p> 
 
 <p>
-{% for year in (2018..2020) reversed %}
+{% for year in (2000..2020) reversed %}
   <a href="#{{ year }}">{{ year }} </a>
 {% endfor %}
 </p>
 <br>
 
-{% for year in (2018..2020) reversed %}
+{% for year in (2000..2020) reversed %}
 	<h2 id="{{year}}">{{year}}</h2>
 	{% assign sorted = site.papers | sort: 'year' | reverse %}
 	{% for item in sorted %}
@@ -34,6 +34,3 @@ permalink: /en/publications_all/
 	{% endfor %}
 {% endfor %}
 <br>
-<br>
-
-<p>under construction full here <a href="https://istina.msu.ru/profile/iperminova/#articles">ИСТИНА</a></p>

@@ -11,16 +11,14 @@ permalink: /publications_all/
 
 <p><a href="/publications">Последние</a>&nbsp &nbsp <a href="/publications_all"  style="color: red;">Все публикации</a></p> 
 
-<p>Раздел в разработке, пока добавлены публикации 2017-2020 годов, а полный список можно посмотреть на сайте <a href="https://istina.msu.ru/profile/iperminova/#articles">ИСТИНА</a></p>
-
 <p>
-{% for year in (2017..2020) reversed %}
+{% for year in (2000..2020) reversed %}
   <a href="#{{ year }}">{{ year }} </a>
 {% endfor %}
 </p>
 <br>
 
-{% for year in (2017..2020) reversed %}
+{% for year in (2000..2020) reversed %}
 	<h1 id="{{year}}">{{year}}</h1>
 	{% assign sorted = site.papers | sort: 'year' | reverse %}
 	{% for item in sorted %}
@@ -35,5 +33,3 @@ permalink: /publications_all/
 	{% endfor %}
 {% endfor %}
 <br>
-
-<p>Раздел в разработке, постепенно все публикации будут добавлены, а пока полный список можно посмотреть на сайте <a href="https://istina.msu.ru/profile/iperminova/#articles">ИСТИНА</a></p>
