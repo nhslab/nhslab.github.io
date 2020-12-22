@@ -5,7 +5,7 @@ journal:  Pure and Applied Chemistry
 year: 2019
 pages:
 doi:  10.1515/pac-2018-1110
-graph_abstract: /assets/images/graph_abstract/2019_apl-chem.jpg
+graph_abstract: /assets/images/graph_abstract/2019_apl-chem.JPG
 ---
 
 

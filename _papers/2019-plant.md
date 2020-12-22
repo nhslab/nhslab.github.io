@@ -5,7 +5,7 @@ journal:  Frontiers in plant science
 year: 2019
 pages: 10, 413
 doi:  10.3389/fpls.2019.00413
-graph_abstract: /assets/images/graph_abstract/2019_plant.jpg
+graph_abstract: /assets/images/graph_abstract/2019_plant.JPG
 ---
 
 
