@@ -12,13 +12,13 @@ permalink: /en/publications_all/
 <p><a href="/en/publications">Last</a>&nbsp &nbsp <a href="/en/publications_all"  style="color: red;">All</a></p> 
 
 <p>
-{% for year in (2019..2020) reversed %}
+{% for year in (2018..2020) reversed %}
   <a href="#{{ year }}">{{ year }} </a>
 {% endfor %}
 </p>
 <br>
 
-{% for year in (2019..2020) reversed %}
+{% for year in (2018..2020) reversed %}
 	<h2 id="{{year}}">{{year}}</h2>
 	{% assign sorted = site.papers | sort: 'year' | reverse %}
 	{% for item in sorted %}
@@ -27,8 +27,7 @@ permalink: /en/publications_all/
 			{% if item.graph_abstract != 0 %}
 				<a href="{{ item.url }}/" ><img src="{{ item.graph_abstract }}" height=150/></a>
 			{% endif %}
-			<p>{{ item.authors }}, {{ item.title }}. {{ item.journal }}, {{ item.year }}, {{ item.pages }}, <a href="http://dx.doi.org/{{ item.doi }}">doi: {{ item.doi }}</a></p>
-			<p><a href="{{ item.url }}">More</a><p>
+			<p>{{ item.authors }}, <a href="{{ item.url }}">{{ item.title }}</a>. {{ item.journal }}, {{ item.year }}, {{ item.pages }}, <a href="http://dx.doi.org/{{ item.doi }}">doi: {{ item.doi }}</a></p>
 		<hr noshade size="1" color="#E9E9E9">
 		{% endif %}
 		
