@@ -5,7 +5,7 @@ journal:  Journal of Soils and Sediments
 year: 2019
 pages: 9, 19487
 doi: 10.1038/s41598-019-55662-1
-graph_abstract: /assets/images/graph_abstract/2019-sci-rep2.jpg
+graph_abstract: /assets/images/graph_abstract/2019_sci-rep2.jpg
 ---
 
 

@@ -5,7 +5,7 @@ journal:  Scientific reports
 year: 2019
 pages: 9, 12066
 doi:  10.1038/s41598-019-48000-y
-graph_abstract: /assets/images/graph_abstract/2019_sc-rep.jpg
+graph_abstract: /assets/images/graph_abstract/2019_sci-rep.jpg
 ---
 
 
