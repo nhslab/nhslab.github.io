@@ -6,6 +6,7 @@ permalink: /mgumus/
 <a href="https://www.humus.ru" ><img src="/assets/images/site-logo/mgumus.png" height=150/></a>
 
 Мы являемся частью коллектива MGUMUS [http://humus.ru/](http://humus.ru/).  Место нашей работы и основной предмет нашего научного интереса послужили основой названия группы: MGU + HUMUS = MGUMUS. Команда состоит из ученых, аспирантов и студентов целого ряда факультетов МГУ: химического, физического, биологического, почвоведения, наук о материалах, в которую входят:
+{: style="text-align: justify"}
 - в.н.с., д.б.н. Куликова Наталья Александровна, факультет почвоведения МГУ, knat@darvodgeo.ru, [профиль ИСТИНА](https://istina.msu.ru/profile/kulikova/)
 - чл.-корр. РАН, проф., д.х.н. Гудилин Евгений Алексеевич, факультет наук о материалах – химфак МГУ, goodilin@inorg.chem.msu.ru, [профиль ИСТИНА](https://istina.msu.ru/profile/goodilin/)
 - доц., к.х.н. Бадун Геннадий Александрович badunga@yandex.ru
