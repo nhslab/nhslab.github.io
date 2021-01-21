@@ -2,7 +2,7 @@
 name: Воликов Александр
 name_en: Volikov Alexander
 position: Младший научный сотрудник <br>Кандидат химических наук
-photo: /assets/images/avtatars/volikov.jpg
+photo: /assets/images/avatars/volikov.jpg
 status: staff
 weight: 2
 istina: https://istina.msu.ru/profile/volikov/

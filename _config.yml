@@ -16,7 +16,7 @@ paginate: 10
 paginate_path: "/news/page:num/"
 
 collections:
-  peoples:
+  people:
     output: true
   papers:
     output: true
@@ -28,9 +28,9 @@ collections:
 defaults:
   - scope:
       path: ""
-      type: "peoples"
+      type: "people"
     values:
-      layout: "peoples"
+      layout: "people"
   - scope:
       path: ""
       type: "posts"

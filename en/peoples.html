@@ -1,6 +1,6 @@
 ---
 layout: default_en
-permalink: /en/peoples/
+permalink: /en/people/
 ---
 
  <head>
@@ -22,7 +22,7 @@ permalink: /en/peoples/
 
 <h2>Head of lab</h2>
 
-  {% for people in site.peoples %}
+  {% for people in site.people %}
 	{% if people.status == "head" %}
 		
 		<div id="pic">
@@ -43,7 +43,7 @@ permalink: /en/peoples/
 
 <h2 id="staf">Staff</h2>
 
-	{% assign sorted = site.peoples | sort: 'weight' %}
+	{% assign sorted = site.people | sort: 'weight' %}
 	{% for people in sorted %}
 	{% if people.status == "staff" %}
 		
@@ -65,7 +65,7 @@ permalink: /en/peoples/
   
 <h2 id="phd">PhD students</h2>
 
-	{% assign sorted = site.peoples | sort: 'weight' %}
+	{% assign sorted = site.people | sort: 'weight' %}
 	{% for people in sorted %}
 	{% if people.status == "phd" %}
 		
@@ -87,7 +87,7 @@ permalink: /en/peoples/
   
 <h2 id="students">Students</h2>
 
-	{% assign sorted = site.peoples | sort: 'weight' %}
+	{% assign sorted = site.people | sort: 'weight' %}
 	{% for people in sorted %}
 	{% if people.status == "student" %}
 		

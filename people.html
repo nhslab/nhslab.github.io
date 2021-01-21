@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Команда
-permalink: /peoples/
+permalink: /people/
 ---
 
  <head>
@@ -24,7 +24,7 @@ permalink: /peoples/
 
 <h2>Заведующий лабораторией</h2>
 
-  {% for people in site.peoples %}
+  {% for people in site.people %}
 	{% if people.status == "head" %}
 		
 		<div id="pic">
@@ -43,7 +43,7 @@ permalink: /peoples/
 
 <h2 id="staf">Сотрудники</h2>
 	
-	{% assign sorted = site.peoples | sort: 'weight' %}
+	{% assign sorted = site.people | sort: 'weight' %}
 	{% for people in sorted %}
 	{% if people.status == "staff" %}
 		
@@ -63,7 +63,7 @@ permalink: /peoples/
   
 <h2 id="phd">Аспиранты</h2>
 
-	{% assign sorted = site.peoples | sort: 'weight' %}
+	{% assign sorted = site.people | sort: 'weight' %}
 	{% for people in sorted %}
 	{% if people.status == "phd" %}
 		
@@ -83,7 +83,7 @@ permalink: /peoples/
   
 <h2 id="students">Студенты</h2>
 
-	{% assign sorted = site.peoples | sort: 'weight' %}
+	{% assign sorted = site.people | sort: 'weight' %}
 	{% for people in sorted %}
 	{% if people.status == "student" %}
 		
