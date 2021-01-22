@@ -52,8 +52,24 @@ layout: default
 	
 {% endfor %}
 
-<p>Немного нашей жизни в лаборатории. Подписывайтесь также на наш <a href="https://instagram.com/perminovalab" >Instagram</a></p>
+<br>
+<br>
+<br>
 
-{% for item in site.photos %}
-	<a href="{{ item.url }}" ><img src="{{ item.image_path }}" style="max-height: 450px"/></a>
-{% endfor %}
+<h3 class="font-weight-light text-center text-lg-left mt-4 mb-0">
+	Немного нашей жизни в лаборатории. Подписывайтесь также на наш <a href="https://instagram.com/perminovalab" >Instagram</a>
+</h3>
+<!-- Page Content -->
+<div class="container">
+	 <hr class="mt-2 mb-5">
+	<div class="row text-center text-lg-left">
+		{% for item in site.photos %}
+	  	<div class="col-lg-3 col-md-4 col-6">
+      	<a href="{{ item.url }}" class="d-block mb-4 h-100">
+			<img class="img-fluid img-thumbnail" src="{{ item.image_path }}" alt="">
+	  	</a>
+    </div>
+	{% endfor %}
+
+</div>
+<!-- /.container -->
