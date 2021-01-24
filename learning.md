@@ -20,3 +20,6 @@ permalink: /learning/
 
 У нас дружная [команда](/people/), приходите к нам на чай в 429 комнату, обсудим возможное сотрудничество, ну или пишите [нам](/contacts/) 
 {: style="text-align: justify"}
+
+<hr color="white">
+<img src="/assets/images/site-logo/430.jpg" />

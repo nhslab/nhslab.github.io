@@ -1,7 +1,7 @@
 ---
 name: Перминова Ирина Васильевна
 name_en: Perminova Irina
-position: главный научный сотрудник<br> Профессор. Доктор химических наук
+position: Главный научный сотрудник<br> Профессор. Доктор химических наук
 photo: /assets/images/avatars/perminova.jpg
 status: head
 weight: 1

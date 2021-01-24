@@ -11,9 +11,6 @@ description: Лаборатория природных гуминовых сис
 #
 # Flags below are optional
 #
-plugins: [jekyll-paginate]
-paginate: 10
-paginate_path: "/news/page:num/"
 
 collections:
   people:

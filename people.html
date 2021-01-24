@@ -17,90 +17,58 @@ permalink: /people/
 
 <body>
 
-<p><a href="#staf">Сотрудники </a></li> &nbsp &nbsp 
-<a href="#phd">Аспиранты </a></li> &nbsp &nbsp 
-<a href="#students">Студенты </a></li> &nbsp &nbsp 
-<a href="/alumni/">Выпускники </a></p>
-
-<h2>Заведующий лабораторией</h2>
-
-  {% for people in site.people %}
-	{% if people.status == "head" %}
-		
-		<div id="pic">
-			<a href="{{ people.url }}/" ><img src="{{ people.photo }}" width=100/></a>
-		</div >
-		
-		<div id="text">
-		
-			<h3><a href="{{ people.url }}">{{ people.name }}</a></h3>
+<div class="container">
+	<div class="row align-items-end">
+		{% for people in site.people %}
+			{% if people.status == "head" %}
+			<div class="col-lg-3 col-md-4 col-6">
+			<h5><a href="{{ people.url }}">{{ people.name }}</a></h5>
 			<p>{{ people.position | markdownify }}</p>
-			<br clear="all">
-		</div>
-		<br>
-	{% endif %}
-  {% endfor %}
-
-<h2 id="staf">Сотрудники</h2>
-	
-	{% assign sorted = site.people | sort: 'weight' %}
-	{% for people in sorted %}
-	{% if people.status == "staff" %}
-		
-		<div id="pic">
-			<a href="{{ people.url }}/" ><img src="{{ people.photo }}" width=100/></a>
-		</div >
-		
-		<div id="text">
-		
-			<h3><a href="{{ people.url }}">{{ people.name }}</a></h3>
+			<a href="{{ people.url }}/"  class="d-block mb-4 h-100">
+				<img class="img-fluid img-thumbnail" src="{{ people.photo }}" alt="">
+			</a>
+		    </div>
+			{% endif %}
+	{% endfor %}		
+		{% assign sorted = site.people | sort: 'weight' %}
+		{% for people in sorted %}
+			{% if people.status == "staff" %}
+			<div class="col-lg-3 col-md-4 col-6">
+			<h5><a href="{{ people.url }}">{{ people.name }}</a></h5>
 			<p>{{ people.position | markdownify }}</p>
-			<br clear="all">
-		</div>
-		<br>
-	{% endif %}
-  {% endfor %}
-  
-<h2 id="phd">Аспиранты</h2>
-
-	{% assign sorted = site.people | sort: 'weight' %}
-	{% for people in sorted %}
-	{% if people.status == "phd" %}
-		
-		<div id="pic">
-			<a href="{{ people.url }}/" ><img src="{{ people.photo }}" width=100/></a>
-		</div >
-		
-		<div id="text">
-		
-			<h3><a href="{{ people.url }}">{{ people.name }}</a></h3>
+			<a href="{{ people.url }}/"  class="d-block mb-4 h-100">
+				<img class="img-fluid img-thumbnail" src="{{ people.photo }}" alt="">
+			</a>
+		    </div>
+			{% endif %}
+	{% endfor %}
+		{% assign sorted = site.people | sort: 'weight' %}
+		{% for people in sorted %}
+			{% if people.status == "phd" %}
+			<div class="col-lg-3 col-md-4 col-6">
+			<h5><a href="{{ people.url }}">{{ people.name }}</a></h5>
 			<p>{{ people.position | markdownify }}</p>
-			<br clear="all">
-		</div>
-		<br>
-	{% endif %}
-  {% endfor %}
-  
-<h2 id="students">Студенты</h2>
-
-	{% assign sorted = site.people | sort: 'weight' %}
-	{% for people in sorted %}
-	{% if people.status == "student" %}
-		
-		<div id="pic">
-			<a href="{{ people.url }}/" ><img src="{{ people.photo }}" width=100/></a>
-		</div >
-		
-		<div id="text">
-		
-			<h3><a href="{{ people.url }}">{{ people.name }}</a></h3>
+			<a href="{{ people.url }}/"  class="d-block mb-4 h-100">
+				<img class="img-fluid img-thumbnail" src="{{ people.photo }}" alt="">
+			</a>
+		    </div>
+			{% endif %}
+	{% endfor %}
+		{% assign sorted = site.people | sort: 'weight' %}
+		{% for people in sorted %}
+			{% if people.status == "student" %}
+			<div class="col-lg-3 col-md-4 col-6">
+			<h5><a href="{{ people.url }}">{{ people.name }}</a></h5>
 			<p>{{ people.position | markdownify }}</p>
-			<br clear="all">
-		</div>
-		<br>
-	{% endif %}
-  {% endfor %}
+			<a href="{{ people.url }}/"  class="d-block mb-4 h-100">
+				<img class="img-fluid img-thumbnail" src="{{ people.photo }}" alt="">
+			</a>
+		    </div>
+			{% endif %}
+	{% endfor %}
 
-<h2><a href="/alumni/">Выпускники </a></h2>
+</div>
+
+<h2><a href="/alumni/" style="color: #3D5583;">Выпускники </a></h2>
 
 </body>
