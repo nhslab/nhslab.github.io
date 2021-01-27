@@ -28,9 +28,7 @@ layout: default
 	{% if item.graph_abstract != 0 %}
 			<a href="{{ item.url }}/" ><img src="{{ item.graph_abstract }}" height=300/></a>
 	{% endif %}
-	<p>{{ item.authors }}</p>
-	<p>{{ item.title }}</p>
-	<p>{{ item.journal }}, {{ item.year }}, {{ item.pages }}, <a href="http://dx.doi.org/{{ item.doi }}">doi: {{ item.doi }}</a></p>
+	<p>{{ item.title }}. {{ item.authors }}. {{ item.journal }}, {{ item.year }}, {{ item.pages }}, <a href="http://dx.doi.org/{{ item.doi }}">doi: {{ item.doi }}</a></p>
 	<a href="{{ item.url }}">Подробнее о публикации</a>
 	<br>
 	<hr noshade size="1" color="#E9E9E9">
