@@ -5,47 +5,77 @@ permalink: /projects/
 
 <h2>Текущие проекты</h2>
 
-{% for item in site.projects %}
-	
-	{% if item.actual == 1 %}
-		
-		{% if item.logo != 0 %}
-				<a href="{{ item.url }}/" ><img src="{{ item.logo }}" height=70/></a>
-		{% endif %}
-		
-		<p>{{ item.company }}</p>
-		<p>{{ item.title }}</p>
-		<p>{{ item.dates }}</p>
-		
-		{% if item.co-executors != 0 %}
-			<p>Совместно с {{item.co-executors}}</p>
-		{% endif %}
-		
-		<a href="{{ item.url }}">Подробнее</a>
-		
-		<br>
-		<hr noshade size="1" color="#E9E9E9">
-		
-	{% endif %}
-	
-{% endfor %}
+<div class="container">
+    {% for item in site.projects %}
+    {% if item.actual == 1 %}
+    <hr noshade size="1" color="#E9E9E9">
+    <div class="container">
+        <div class="row align-items-center">
 
+            <div class="col-lg-8 col-md-8 col-8">
+                <div class="container">
+                    <p><b>{{ item.title }}</b></p>
+                    <p>{{ item.company }}</p>
+                    <p>{{ item.dates }}</p>
+
+                    {% if item.co-executors != 0 %}
+                    <p>Совместно с {{item.co-executors}}</p>
+                    {% endif %}
+
+                    <a href="{{ item.url }}">Подробнее</a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-4">
+                <div class="container">
+                    {% if item.logo != 0 %}
+                    <a href="{{ item.url }}/"><img src="{{ item.logo }}" height=70/></a>
+                    {% endif %}
+                    <br>
+                </div>
+            </div>
+
+            <br>
+        </div>
+    </div>
+    {% endif %}
+
+    {% endfor %}
+    <hr noshade size="1" color="#E9E9E9">
+
+</div>
 <h2>Успешно выполненные проекты</h2>
 
-{% for item in site.projects %}
-	
-	{% if item.actual == 0 %}
-		
-		{% if item.logo != 0 %}
-				<a href="{{ item.url }}/" ><img src="{{ item.logo }}" height=70/></a>
-		{% endif %}
-		<p>{{ item.dates }}</p>
-		
-		<a href="{{ item.url }}">Подробнее</a>
-		<hr noshade size="1" color="#E9E9E9">
-		
-	{% endif %}
-	
-{% endfor %}
+<div class="container">
+    {% for item in site.projects %}
+    {% if item.actual == 0 %}
+    <hr noshade size="1" color="#E9E9E9">
 
-<p>Раздел в разработке, постепенно все проекты будут добавлены, а пока полный список можно посмотреть на сайте <a href="https://istina.msu.ru/profile/iperminova/#projects">ИСТИНА</a></p>
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-8 col-md-8 col-8">
+                <div class="container">
+                    <p><b>{{ item.title }}</b></p>
+                    <p>{{ item.company }}</p>
+                    <p>{{ item.dates }}</p>
+                    <a href="{{ item.url }}">Подробнее</a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-4">
+                <div class="container">
+                    {% if item.logo != 0 %}
+                    <a href="{{ item.url }}/"><img src="{{ item.logo }}" height=70/></a>
+
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% endif %}
+    {% endfor %}
+    <hr noshade size="1" color="#E9E9E9">
+
+</div>
+
+<p>Раздел в разработке, постепенно все проекты будут добавлены, а пока полный список можно посмотреть на сайте <a
+        href="https://istina.msu.ru/profile/iperminova/#projects">ИСТИНА</a></p>
