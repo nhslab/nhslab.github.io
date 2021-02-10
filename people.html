@@ -16,7 +16,6 @@ permalink: /people/
  </head>
 
 <body>
-
 <div class="container">
 	<div class="row align-items-end">
 		{% for people in site.people %}
@@ -54,7 +53,7 @@ permalink: /people/
 		    </div>
 			{% endif %}
 	{% endfor %}
-		{% assign sorted = site.people | sort: 'weight' %}
+		{% assign sorted = site.people | sort: 'weight' | reverse %}
 		{% for people in sorted %}
 			{% if people.status == "student" %}
 			<div class="col-lg-3 col-md-4 col-6">
@@ -68,7 +67,53 @@ permalink: /people/
 	{% endfor %}
 
 </div>
+</div>
 
-<h2><a href="/alumni/" style="color: #3D5583;">Выпускники </a></h2>
+<hr>
+
+<div class="container">
+	<div class="row align-items-baseline">
+		<div class="col-lg-4 col-md-4 col-6">
+			<div class="container">
+				<ul class="list-group">
+					<h3 class="list-group-item active">Специалисты</h3>
+
+					{% assign sorted = site.graduates | sort: 'year' | reverse %}
+					{% for person in sorted %}
+						<li class="list-group-item">{{ person.name }} {{ person.year }}</li>
+					{% endfor %}
+				</ul>
+			</div>
+		</div>
+
+
+		<div class="col-lg-4 col-md-4 col-6">
+			<div class="container">
+				<ul class="list-group">
+					<h3 class="list-group-item active">Кандидаты наук</h3>
+
+					{% assign sorted = site.phd | sort: 'year' | reverse %}
+					{% for person in sorted %}
+						<li class="list-group-item">{{ person.name }} {{ person.year }}</li>
+					{% endfor %}
+				</ul>
+			</div>
+		</div>
+
+		<div class="col-lg-4 col-md-4 col-6">
+			<div class="container">
+				<ul class="list-group">
+					<h3 class="list-group-item active">Доктора наук</h3>
+
+					{% assign sorted = site.doctors | sort: 'year' | reverse %}
+					{% for person in sorted %}
+						<li class="list-group-item">{{ person.name }} {{ person.year }}</li>
+					{% endfor %}
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
 
 </body>

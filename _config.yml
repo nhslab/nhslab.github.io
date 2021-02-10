@@ -21,6 +21,12 @@ collections:
     output: true
   photos:
     output: true
+  doctors:
+    output: true
+  graduates:
+    output: true
+  phd:
+    output: true
 
 defaults:
   - scope:
