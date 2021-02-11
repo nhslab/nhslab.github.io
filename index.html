@@ -1,9 +1,8 @@
 ---
 layout: default
 ---
-
-<h2>О нас</h2>
 <div class="container">
+<h2>О нас</h2>
     <div class="row align-items-baseline">
         <div class="col-lg-6 col-md-6 col-6">
             <div class="container">
@@ -41,12 +40,13 @@ layout: default
 
 </div>
 
+
+<div class="container">
 <h2>Последняя публикация</h2>
 
 {% assign sorted = site.papers | sort: 'year' | reverse %}
 {% for item in sorted limit:1 %}
 
-<div class="container">
     <div class="row align-items-baseline">
         <div class="col-lg-6 col-md-6 col-6">
             <div class="container">
@@ -75,9 +75,8 @@ layout: default
 <hr noshade size="1" color="#E9E9E9">
 {% endfor %}
 
-<h2>Последние новости</h2>
-
 <div class="container">
+<h2>Последние новости</h2>
     <div class="row align-items-baseline">
 
         {% for post in site.posts %}
