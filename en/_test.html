@@ -1,0 +1,74 @@
+<html>
+
+<head>
+ <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/>
+
+  <style>
+    #mapid { height: 500px; }
+  </style>
+</head>
+
+<body>
+  <div id="mapid"></div>
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+          integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+          crossorigin="">
+  </script>
+  <script>
+    var mymap = L.map('mapid').setView([55.702155, 37.525978], 2);
+    L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+      // attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+      maxZoom: 18,
+      id: 'mapbox/streets-v11',
+      tileSize: 512,
+      zoomOffset: -1,
+      accessToken: 'pk.eyJ1IjoiZHByZWVyIiwiYSI6ImNrYW5zZ3VrczA3dmIyeW55ZGJqa20yOXQifQ.cPDEsCNqrf35S_N4rZKeCw'
+    }).addTo(mymap);
+
+    var data = [
+        {'Station': '6931', 'coordinates': [72.0287, 63.3923], 'len': 5},
+        {'Station': '6932', 'coordinates': [72.0287, 63.3923], 'len': 4},
+        {'Station': '6933', 'coordinates': [72.0287, 63.3923], 'len': 4},
+        {'Station': '6934', 'coordinates': [72.0287, 63.3923], 'len': 5},
+        {'Station': '6935', 'coordinates': [72.0287, 63.3923], 'len': 3},
+        {'Station': '6939', 'coordinates': [72.0287, 63.3923], 'len': 3},
+        {'Station': '6941', 'coordinates': [72.0287, 63.3923], 'len': 5},
+        {'Station': '6942', 'coordinates': [72.0287, 63.3923], 'len': 10},
+        {'Station': '6943', 'coordinates': [72.0287, 63.3923], 'len': 5},
+        {'Station': '6946', 'coordinates': [72.0287, 63.3923], 'len': 5},
+        {'Station': '6947', 'coordinates': [72.0287, 63.3923], 'len': 10},
+        {'Station': '6950', 'coordinates': [72.0287, 63.3923], 'len': 5},
+        {'Station': '6952', 'coordinates': [72.0287, 63.3923], 'len': 10},
+        {'Station': '6960', 'coordinates': [72.0287, 63.3923], 'len': 5},
+        {'Station': '6961', 'coordinates': [72.0287, 63.3923], 'len': 13},
+        {'Station': '6963', 'coordinates': [72.0287, 63.3923], 'len': 13},
+        {'Station': '6966', 'coordinates': [72.0287, 63.3923], 'len': 5},
+        {'Station': '6969', 'coordinates': [72.0287, 63.3923], 'len': 3},
+        {'Station': '6971', 'coordinates': [72.0287, 63.3923], 'len': 6},
+        {'Station': '6972', 'coordinates': [72.0287, 63.3923], 'len': 3},
+        {'Station': '6973', 'coordinates': [72.0287, 63.3923], 'len': 6},
+        {'Station': '6974', 'coordinates': [72.0287, 63.3923], 'len': 6},
+        {'Station': '6976', 'coordinates': [72.0287, 63.3923], 'len': 18},
+        {'Station': '6981', 'coordinates': [72.0287, 63.3923], 'len': 3},
+        {'Station': '6983', 'coordinates': [72.0287, 63.3923], 'len': 6},
+        {'Station': '6991', 'coordinates': [72.0287, 63.3923], 'len': 18}
+        {'Station': '6984', 'coordinates': [72.0287, 63.3923], 'len': 8},
+        {'Station': '6986', 'coordinates': [72.0287, 63.3923], 'len': 8},
+    ]
+    var circles = []
+    var i;
+    for(i = 0; i < data.length; i++) {
+      circles.push(L.circle(data["coordinates"][i], {
+          color: 'red',
+          fillColor: '#f03',
+          fillOpacity: 0.5,
+          radius: data[i]['len'] * 100
+      }).addTo(mymap));
+    }
+
+</script>
+
+</body>
+</html>
