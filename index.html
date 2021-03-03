@@ -4,7 +4,7 @@ layout: default
 <div class="container">
 <h2>О нас</h2>
     <div class="row align-items-baseline">
-        <div class="col-lg-6 col-md-6 col-6">
+        <div class="col-lg-6 col-md-6 col-12">
             <div class="container">
                 <p>
                     Добро пожаловать на сайт Лаборатории природных гуминовых систем кафедры медицинской химии и тонкого
@@ -18,7 +18,7 @@ layout: default
                 </p>
             </div>
         </div>
-        <div class="col-lg-6 col-md-6 col-6">
+        <div class="col-lg-6 col-md-6 col-12">
             <div class="container">
                 <p>
                     Руководителем лаборатории является главный научный сотрудник, доктор
@@ -48,7 +48,7 @@ layout: default
 {% for item in sorted limit:1 %}
 
     <div class="row align-items-baseline">
-        <div class="col-lg-6 col-md-6 col-6">
+        <div class="col-lg-6 col-md-6 col-12">
             <div class="container">
                 <h4>Общая информация</h4>
                 <p><b>{{ item.title }}.</b> <br> {{ item.authors }}. {{ item.journal }}, {{ item.year }}, {{
@@ -64,7 +64,7 @@ layout: default
                 <br>
             </div>
         </div>
-        <div class="col-lg-6 col-md-6 col-6">
+        <div class="col-lg-6 col-md-6 col-12">
             <div class="container">
                 <h4>Абстракт статьи</h4>
                 <p> {{ item.abstract }} </p>
@@ -81,7 +81,7 @@ layout: default
 
         {% for post in site.posts %}
         {% if post.pin == 1 %}
-        <div class="col-lg-6 col-md-6 col-6">
+        <div class="col-lg-6 col-md-6 col-12">
             <div class="container">
 
                 <article class="post">
