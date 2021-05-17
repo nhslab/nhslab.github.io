@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Публикация в Scientific Reports - Phenol-rich fulvic acid as a water additive enhances growth, reduces stress, and stimulates the immune system of fish in aquaculture
-pin: 1
+pin: 0
 image: /assets/images/graph_abstract/2021_scirep.jpg
 ---
 
