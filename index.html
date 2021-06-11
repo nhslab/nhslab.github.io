@@ -45,20 +45,20 @@ layout: default
 
 <h2>Последние новости</h2>
     
-        {% for post in site.posts %}
+    {% for post in site.posts %}
         {% if post.pin == 1 %}
-                    <p>
-                    <h3>{{ post.date | date: "%Y-%m-%d" }}</h3>
-                    <h5>
-                        <a href="{{ post.url }}">{{ post.title }}</a>
-                    </h5>
-                    <img src="{{ post.image }}"/>
-					<p> {{ post.content }} </p>
-                    </p>
+            <p>
+            <h3>{{ post.date | date: "%Y-%m-%d" }}</h3>
+            <h5>
+                <a href="{{ post.url }}">{{ post.title }}</a>
+            </h5>
+            <img src="{{ post.image }}"/>
+            </p>
+            <p> {{ post.content }} </p>
 
-         
+        
         {% endif %}
-        {% endfor %}
+    {% endfor %}
 
 <hr noshade size="1" color="#E9E9E9">
 
