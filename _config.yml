@@ -13,6 +13,8 @@ description: Лаборатория природных гуминовых сис
 #
 
 collections:
+  posts:
+    output: true
   people:
     output: true
   papers:
