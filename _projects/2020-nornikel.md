@@ -6,5 +6,5 @@ year: 2021
 co-executors: 0
 actual: 1
 workers: Перминова И.В., Воликов А.Б. Мареев Н., Жиркова А., Хрептугова А., Соловьева А., Григорьева И., Кравцова Д., Молодых А., Мельникова С.
-logo: /assets/images/projects/норникель.png
+logo: /assets/images/projects/норникель.jpg
 ---
