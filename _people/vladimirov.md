@@ -1,9 +1,9 @@
 ---
 name: Владимиров Сергей
 name_en: Vladimirov Sergey
-position: студент 6-го курса
+position: аспирант 1-го года
 photo: /assets/images/avatars/vladimirov.jpg
-status: student
+status: phd
 weight: 3
 istina: https://istina.msu.ru/profile/Vladimirov/
 email: 0

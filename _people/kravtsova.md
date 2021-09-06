@@ -1,10 +1,10 @@
 ---
 name: Кравцова Дарья
 name_en: Kravtsova Darya
-position: студент 6-го курса
+position: научный сотрудник
 photo: /assets/images/avatars/kravtsova.jpg
-status: student
-weight: 1
+status: staff
+weight: 3
 istina: https://istina.msu.ru/profile/DariusSeptim/
 email: 0
 ---

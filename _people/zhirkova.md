@@ -1,10 +1,10 @@
 ---
 name: Жиркова Анастасия
 name_en: Zhirkova Anastasiya
-position: аспирант 1-го года обучения
+position: аспирант 2-го года обучения
 photo: /assets/images/avatars/zhirkova.jpg
 status: phd
-weight: 4
+weight: 2
 istina: https://istina.msu.ru/profile/Zhirkova_AM/
 email: 0
 ---
