@@ -53,7 +53,7 @@ permalink: /people/
 		    </div>
 			{% endif %}
 	{% endfor %}
-		{% assign sorted = site.people | sort: 'weight' | reverse %}
+		{% assign sorted = site.people | sort: 'weight' %}
 		{% for people in sorted %}
 			{% if people.status == "student" %}
 			<div class="col-lg-3 col-md-4 col-6">

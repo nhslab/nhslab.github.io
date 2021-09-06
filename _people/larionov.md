@@ -2,7 +2,7 @@
 name: Ларионов Константин
 name_en: Larionov Konstantin
 position: студент 4-го курса
-photo: /assets/images/avatars/larionoc.jpg
+photo: /assets/images/avatars/larionov.jpg
 status: student
 weight: 2
 istina: 
