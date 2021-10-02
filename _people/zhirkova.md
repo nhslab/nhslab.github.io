@@ -1,7 +1,7 @@
 ---
 name: Жиркова Анастасия
 name_en: Zhirkova Anastasiya
-position: аспирант 2-го года обучения
+position: аспирантка 2-го года обучения
 photo: /assets/images/avatars/zhirkova.jpg
 status: phd
 weight: 2
