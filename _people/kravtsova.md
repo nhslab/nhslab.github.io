@@ -1,7 +1,7 @@
 ---
 name: Кравцова Дарья
 name_en: Kravtsova Darya
-position: научный сотрудник
+position: младший научный сотрудник
 photo: /assets/images/avatars/kravtsova.jpg
 status: staff
 weight: 4
