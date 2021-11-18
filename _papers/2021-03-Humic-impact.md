@@ -1,6 +1,6 @@
 ---
-authors:   Perminova Irina V., Garcia-Mina Jose-Maria, Podgorski David C., Cervantes Francisco J., Efremenko Elena N., Domingo José L.
-title: Humic substances and living systems: impact on environmental and human health
+authors: Perminova Irina V., Garcia-Mina Jose-Maria, Podgorski David C., Cervantes Francisco J., Efremenko Elena N., Domingo José L.
+title: Humic substances and living systems:\ impact on environmental and human health
 journal: Environmental Research
 year: 2021
 pages:  
