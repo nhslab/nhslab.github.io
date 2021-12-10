@@ -1,7 +1,7 @@
 ---
 name: Волокитин Святослав
 name_en: Volokitin Svyatoslav
-position: магистр 1 курс, факультет почвоведения
+position: магистр 1-ого курса, <br>факультет почвоведения
 photo: /assets/images/avatars/nophoto.jpg
 status: student
 weight: 4
