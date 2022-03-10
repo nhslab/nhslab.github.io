@@ -1,7 +1,7 @@
 ---
 name: Владимиров Сергей
 name_en: Vladimirov Sergey
-position: аспирант 1-го года
+position: аспирант 1-го года обучения
 photo: /assets/images/avatars/vladimirov.jpg
 status: phd
 weight: 3
