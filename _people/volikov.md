@@ -1,7 +1,10 @@
 ---
 name: Воликов Александр
 name_en: Volikov Alexander
+name_cn: Volikov Alexander
 position: Младший научный сотрудник <br>Кандидат химических наук
+position_en: Junior Researcher. <br>PhD in Chemistry
+position_cn: Junior Researcher. <br>PhD in Chemistry
 photo: /assets/images/avatars/volikov.jpg
 status: staff
 weight: 3

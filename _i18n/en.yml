@@ -1,0 +1,52 @@
+global:
+  tagline: English
+  about: About
+  twitter: Twitter
+  github: GitHub
+langs:
+  en: English
+  ru: Russian
+  cn: Chinese
+templates:
+  default:
+    name: Perminova Lab
+    home: Home
+    science: Science
+    students: Students
+    projects: Projects
+    team: Team
+    publications: Publications
+    contacts: Contacts
+    laboratory: Laboratory of natural humic systems
+    department: Department of Medical Chemistry and Fine Organic Synthesis
+    faculty: Department of Chemistry, Moscow State University named after M.V. Lomonosov
+pages:
+  index:
+    about: About
+    abstract: Article Abstract
+    last_publication: Last Publicaiton
+    general_information: General information
+    all_publications: All publications
+    about_this_publication: About this publication
+    instagram: A little bit of our life in the laboratory. Subscribe also to our <a href="https://instagram.com/perminovalab">Instagram</a>
+  publications:
+    latest: Latest
+    all: All publications
+    more: More
+  projects:
+    completed_projects: Completed projects
+    more: More
+    current_projects: Current projects
+    done_projects: Successfully Completed Projects
+  contacts:
+    email_title: E-mail
+    address_title: Address
+    address_text: Moscow, 119991, Leninskie gory, 1 p.3, Chemical Faculty of Moscow State University, room 429
+    internet_title: We are on the internet
+    internet_text: Follow our
+    room_title: We are in real life
+    room_text: You can find us in the main building of the Faculty of Chemistry in rooms 429 or 430
+    vk_title: Vkontakte group
+
+titles:
+  pagination: Pagination

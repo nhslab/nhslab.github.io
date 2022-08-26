@@ -1,0 +1,51 @@
+global:
+  tagline: English
+  about: About
+  twitter: Twitter
+  github: GitHub
+langs:
+  en: English
+  ru: Russian
+  cn: Chinese
+templates:
+  default:
+    name: Perminova 实验室
+    home: 主页
+    science: 科学
+    students: 学生
+    projects: 项目
+    team: 团队
+    publications: 出版物
+    contacts: 联系方式
+    laboratory: 天然腐殖质系统实验室
+    department: 药物化学与精细有机合成教研室
+    faculty: 以 M.V. 罗蒙诺索夫命名的莫斯科国立大学化学系
+pages:
+  index:
+    about: 关于我们
+    abstract: 文章摘要
+    last_publication: 最近发表文章
+    general_information: 一般信息
+    all_publications: 关于本出版物的更多信息
+    about_this_publication: 所有出版物
+    instagram: 我们在实验室生活的点点滴滴。请订阅我们的 <a href="https://instagram.com/perminovalab">Instagram</a>
+  publications:
+    latest: 最新的
+    all: 所有出版物
+    more: 更多的
+  projects:
+    completed_projects: 成功完成的项目
+    more: 更多的
+    current_projects: 当前项目
+    done_projects: 成功完成的项目
+  contacts:
+    email_title: E-mail
+    address_title: Address
+    address_text: Moscow, 119991, Leninskie gory, 1 p.3, Chemical Faculty of Moscow State University, room 429
+    internet_title: We are on the internet
+    internet_text: follow us in Instagram
+    room_title: We are in real life
+    room_text: You can find us in the main building of the Faculty of Chemistry in rooms 429 or 430
+    vk_title: Vkontakte group
+titles:
+  pagination: Pagination

@@ -1,6 +1,9 @@
 ---
 name: Перминова Ирина Васильевна
 name_en: Perminova Irina
+name_cn: Perminova Irina Vasilievna
+position_cn: 首席研究员 <br> 教授。化学科学博士
+position_en: Principal Investigator <br>Professor. PhD in Chemical Sciences
 position: Главный научный сотрудник<br> Профессор. Доктор химических наук
 photo: /assets/images/avatars/perminova.jpg
 status: head

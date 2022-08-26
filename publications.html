@@ -6,8 +6,11 @@ permalink: /publications/
 <!--<p><a href="/publications" style="color: red;">Последние</a> &nbsp &nbsp <a href="/publications_all">Все публикации</a>-->
 <!--</p>-->
 
-<h4><a href="/publications"   style="color: red;">Последние</a>&nbsp &nbsp <a href="/publications_all">Все публикации</a></h4> 
-
+<h4>
+    <a href="{{ site.baseurl }}/publications"   style="color: red;">{% t pages.publications.latest %}</a>
+    &nbsp &nbsp
+<!--    <a href="{{ site.baseurl }}/publications_all">{% t pages.publications.all %}</a>-->
+</h4>
 <div class="container">
     {% assign sorted = site.papers | sort: 'year' | reverse %}
     {% for item in sorted limit:30 %}
@@ -22,7 +25,7 @@ permalink: /publications/
                     <p>{{ item.journal }}, {{ item.year }}, {{ item.pages }}, <a
                             href="http://dx.doi.org/{{ item.doi }}">doi: {{
                         item.doi }}</a></p>
-                    <a href="{{ item.url }}">Подробнее</a>
+                    <a href="{{ site.baseurl }}{{ item.url }}">{% t pages.publications.more %}</a>
 
                 </div>
             </div>

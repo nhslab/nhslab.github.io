@@ -31,37 +31,48 @@
             <div class="site-info">
                 <a href="{{ site.baseurl }}/" class="site-avatar"><img src="/assets/images/site-logo/nhslab.png"/></a>
 
-                <h1 class="site-name"><a href="{{ site.baseurl }}/">Perminova Lab</a></h1>
+                <h1 class="site-name"><a href="{{ site.baseurl }}/">{% t templates.default.name %}</a></h1>
 
-                <p class="site-description">Лаборатория природных гуминовых систем</p>
-                <p class="site-description">Кафедра медицинской химии и тонкого органического синтеза</p>
-                <p class="site-description"><a href="http://www.chem.msu.ru/rus/weldept.html">Химический факультет МГУ
-                    имени М.В. Ломоносова</a></p>
+                <p class="site-description">{% t templates.default.laboratory %}</p>
+                <p class="site-description">{% t templates.default.department %}</p>
+                <p class="site-description"><a href="http://www.chem.msu.ru/rus/weldept.html">{% t templates.default.faculty %}</a></p>
 
             </div>
             <br>
             <nav>
-                <a href="{{ site.baseurl }}/" {% if page.url== "/" %}style="color: red;"{% endif %}>Главная</a>
+                <a href="{{ site.baseurl }}/" {% if page.url== "/" %}style="color: red;"{% endif %}>{% t templates.default.home %}</a>
                 <a href="{{ site.baseurl }}/science" {% if page.url== "/science/" %}style="color: red;"{% endif
-                %}>Наука</a>
+                %}>{% t templates.default.science %}</a>
                 <a href="{{ site.baseurl }}/learning" {% if page.url== "/learning/" %}style="color: red;"{% endif
-                %}>Студентам</a>
+                %}>{% t templates.default.students %}</a>
                 <a href="{{ site.baseurl }}/projects" {% if page.url== "/projects/" %}style="color: red;"{% endif
-                %}>Проекты</a>
+                %}>{% t templates.default.projects %}</a>
                 <a href="{{ site.baseurl }}/people" {% if page.url== "/people/" %}style="color: red;"{% endif
-                %}>Команда</a>
+                %}>{% t templates.default.team %}</a>
                 <a href="{{ site.baseurl }}/publications" {% if page.url== "/publications/" or page.url ==
-                "/publications_all/" %}style="color: red;"{% endif %}>Публикации</a>
+                "/publications_all/" %}style="color: red;"{% endif %}>{% t templates.default.publications %}</a>
                 <a href="{{ site.baseurl }}/contacts" {% if page.url== "/contacts/" %}style="color: red;"{% endif
-                %}>Контакты</a>
+                %}>{% t templates.default.contacts %}</a>
                 <a href="{{ site.baseurl }}/conference" {% if page.url== "/conference/" %}style="color: red;"{% endif
                 %}>HiT</a>
                 <a href="{{ site.baseurl }}/mgumus" {% if page.url== "/mgumus/" %}style="color: red;"{% endif
                 %}>MGUMUS</a>
-                <a href="{{ site.baseurl }}/en"><img src="/assets/images/site-logo/en.png" alt="switch to english"
-                                                     style="margin-top: 10"/></a>
+                {% if site.lang != "ru" %}
+                    <a href="{{ site.baseurl_root }}{{ page.url }}">
+                        <img src="/assets/images/site-logo/ru.png" alt="switch to russian" style="margin-top: 10"/>
+                    </a>
+                {% endif %}
+                {% if site.lang != "en" %}
+                    <a href="{{ site.baseurl_root }}/en{{ page.url }}">
+                        <img src="/assets/images/site-logo/en.png" alt="switch to english" style="margin-top: 10"/>
+                    </a>
+                {% endif %}
+                {% if site.lang != "cn" %}
+                    <a href="{{ site.baseurl_root }}/cn{{ page.url }}">
+                        <img src="/assets/images/site-logo/cn.jpg" alt="switch to chinese" style="margin-top: 10; width: 30px"/>
+                    </a>
+                {% endif %}
             </nav>
-
         </header>
     </div>
 </div>

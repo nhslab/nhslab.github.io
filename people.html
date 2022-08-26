@@ -21,56 +21,88 @@ permalink: /people/
 		{% for people in site.people %}
 			{% if people.status == "head" %}
 			<div class="col-lg-3 col-md-4 col-6">
-			<h5><a href="{{ people.url }}">{{ people.name }}</a></h5>
-			<p>{{ people.position | markdownify }}</p>
-			<a href="{{ people.url }}/"  class="d-block mb-4 h-100">
-				<img class="img-fluid img-thumbnail" src="{{ people.photo }}" alt="">
-			</a>
+				{% if site.lang == "cn" %}
+					<h5><a href="{{ people.url }}">{{ people.name_cn }}</a></h5>
+					<p>{{ people.position_cn | markdownify }}</p>
+				{% elsif site.lang == "ru" %}
+					<h5><a href="{{ people.url }}">{{ people.name }}</a></h5>
+					<p>{{ people.position | markdownify }}</p>
+				{% elsif site.lang == "en"%}
+					<h5><a href="{{ people.url }}">{{ people.name_en }}</a></h5>
+					<p>{{ people.position_en | markdownify }}</p>
+				{% endif %}
+				<a href="{{ people.url }}/"  class="d-block mb-4 h-100">
+					<img class="img-fluid img-thumbnail" src="{{ people.photo }}" alt="">
+				</a>
 		    </div>
 			{% endif %}
 	{% endfor %}		
-		{% assign sorted = site.people | sort: 'weight' %}
-		{% for people in sorted %}
-			{% if people.status == "staff" %}
+	{% assign sorted = site.people | sort: 'weight' %}
+	{% for people in sorted %}
+		{% if people.status == "staff" %}
 			<div class="col-lg-3 col-md-4 col-6">
-			<h5><a href="{{ people.url }}">{{ people.name }}</a></h5>
-			<p>{{ people.position | markdownify }}</p>
+			{% if site.lang == "cn" %}
+				<h5><a href="{{ people.url }}">{{ people.name_cn }}</a></h5>
+				<p>{{ people.position_cn | markdownify }}</p>
+			{% elsif site.lang == "ru" %}
+				<h5><a href="{{ people.url }}">{{ people.name }}</a></h5>
+				<p>{{ people.position | markdownify }}</p>
+			{% elsif site.lang == "en"%}
+				<h5><a href="{{ people.url }}">{{ people.name_en }}</a></h5>
+				<p>{{ people.position_en | markdownify }}</p>
+			{% endif %}
 			<a href="{{ people.url }}/"  class="d-block mb-4 h-100">
 				<img class="img-fluid img-thumbnail" src="{{ people.photo }}" alt="">
 			</a>
-		    </div>
-			{% endif %}
+			</div>
+		{% endif %}
 	{% endfor %}
-		{% assign sorted = site.people | sort: 'weight' %}
-		{% for people in sorted %}
-			{% if people.status == "phd" %}
-			<div class="col-lg-3 col-md-4 col-6">
+	{% assign sorted = site.people | sort: 'weight' %}
+	{% for people in sorted %}
+		{% if people.status == "phd" %}
+		<div class="col-lg-3 col-md-4 col-6">
+		{% if site.lang == "cn" %}
+			<h5><a href="{{ people.url }}">{{ people.name_cn }}</a></h5>
+			<p>{{ people.position_cn | markdownify }}</p>
+		{% elsif site.lang == "ru" %}
 			<h5><a href="{{ people.url }}">{{ people.name }}</a></h5>
 			<p>{{ people.position | markdownify }}</p>
-			<a href="{{ people.url }}/"  class="d-block mb-4 h-100">
-				<img class="img-fluid img-thumbnail" src="{{ people.photo }}" alt="">
-			</a>
-		    </div>
-			{% endif %}
+		{% elsif site.lang == "en"%}
+			<h5><a href="{{ people.url }}">{{ people.name_en }}</a></h5>
+			<p>{{ people.position_en | markdownify }}</p>
+		{% endif %}
+		<a href="{{ people.url }}/"  class="d-block mb-4 h-100">
+		<img class="img-fluid img-thumbnail" src="{{ people.photo }}" alt="">
+		</a>
+		</div>
+		{% endif %}
 	{% endfor %}
-		{% assign sorted = site.people | sort: 'weight' %}
-		{% for people in sorted %}
-			{% if people.status == "student" %}
-			<div class="col-lg-3 col-md-4 col-6">
+	{% assign sorted = site.people | sort: 'weight' %}
+	{% for people in sorted %}
+		{% if people.status == "student" %}
+		<div class="col-lg-3 col-md-4 col-6">
+		{% if site.lang == "cn" %}
+			<h5><a href="{{ people.url }}">{{ people.name_cn }}</a></h5>
+			<p>{{ people.position_cn | markdownify }}</p>
+		{% elsif site.lang == "ru" %}
 			<h5><a href="{{ people.url }}">{{ people.name }}</a></h5>
 			<p>{{ people.position | markdownify }}</p>
-			<a href="{{ people.url }}/"  class="d-block mb-4 h-100">
-				<img class="img-fluid img-thumbnail" src="{{ people.photo }}" alt="">
-			</a>
-		    </div>
-			{% endif %}
+		{% elsif site.lang == "en"%}
+			<h5><a href="{{ people.url }}">{{ people.name_en }}</a></h5>
+			<p>{{ people.position_en | markdownify }}</p>
+		{% endif %}
+		<a href="{{ people.url }}/"  class="d-block mb-4 h-100">
+		<img class="img-fluid img-thumbnail" src="{{ people.photo }}" alt="">
+		</a>
+		</div>
+		{% endif %}
 	{% endfor %}
 
 </div>
 </div>
 
+{% if site.lang == "ru" %}
 <hr>
-
 <div class="container">
 	<div class="row align-items-baseline">
 		<div class="col-lg-4 col-md-6 col-sm-12">
@@ -115,5 +147,6 @@ permalink: /people/
 	</div>
 </div>
 
+{% endif %}
 
 </body>

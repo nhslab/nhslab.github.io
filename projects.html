@@ -3,7 +3,7 @@ layout: default
 permalink: /projects/
 ---
 
-<h2>Текущие проекты</h2>
+<h2>{% t pages.projects.current_projects %}</h2>
 
 <div class="container">
     {% for item in site.projects %}
@@ -14,15 +14,35 @@ permalink: /projects/
 
             <div class="col-lg-8 col-md-6 col-12">
                 <div class="container">
-                    <p><b>{{ item.title }}</b></p>
-                    <p>{{ item.company }}</p>
-                    <p>{{ item.dates }}</p>
+                    {% if site.lang == "cn" %}
+                        <p><b>{{ item.title_cn }}</b></p>
+                        <p>{{ item.company_cn }}</p>
+                        <p>{{ item.dates_cn }}</p>
 
-                    {% if item.co-executors != 0 %}
-                    <p>Совместно с {{item.co-executors}}</p>
+                        {% if item.co-executors != 0 %}
+                        <p>在 {{item.co-executors_cn}} 的支持下</p>
                     {% endif %}
 
-                    <a href="{{ item.url }}">Подробнее</a>
+                    {% elsif site.lang == "en" %}
+                        <p><b>{{ item.title_en }}</b></p>
+                        <p>{{ item.company_en }}</p>
+                        <p>{{ item.dates_en }}</p>
+
+                        {% if item.co-executors != 0 %}
+                        <p>{{item.co-executors_en}}</p>
+                    {% endif %}
+
+                    {% else %}
+                        <p><b>{{ item.title }}</b></p>
+                        <p>{{ item.company }}</p>
+                        <p>{{ item.dates }}</p>
+
+                        {% if item.co-executors != 0 %}
+                        <p>Совместно с {{item.co-executors}}</p>
+                        {% endif %}
+                    {% endif %}
+
+<!--                    <a href="{{ item.url }}">{% t pages.projects.more %}</a>-->
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-12">
@@ -43,7 +63,7 @@ permalink: /projects/
     <hr noshade size="1" color="#E9E9E9">
 
 </div>
-<h2>Успешно выполненные проекты</h2>
+<h2>{% t pages.projects.done_projects %}</h2>
 
 <div class="container">
     {% for item in site.projects %}
@@ -54,10 +74,22 @@ permalink: /projects/
         <div class="row align-items-center">
             <div class="col-lg-8 col-md-6 col-12">
                 <div class="container">
-                    <p><b>{{ item.title }}</b></p>
-                    <p>{{ item.company }}</p>
-                    <p>{{ item.dates }}</p>
-                    <a href="{{ item.url }}">Подробнее</a>
+                    {% if site.lang == "cn" %}
+                        <p><b>{{ item.title_cn }}</b></p>
+                        <p>{{ item.company_cn }}</p>
+                        <p>{{ item.dates_cn }}</p>
+                        <a href="{{ item.url }}">{% t pages.projects.more %}</a>
+                    {% elsif site.lang == "en" %}
+                        <p><b>{{ item.title_en }}</b></p>
+                        <p>{{ item.company_en }}</p>
+                        <p>{{ item.dates_en }}</p>
+                        <a href="{{ item.url }}">{% t pages.projects.more %}</a>
+                    {% else%}
+                        <p><b>{{ item.title }}</b></p>
+                        <p>{{ item.company }}</p>
+                        <p>{{ item.dates }}</p>
+                        <a href="{{ item.url }}">{% t pages.projects.more %}</a>
+                    {% endif %}
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-12">
@@ -77,5 +109,13 @@ permalink: /projects/
 
 </div>
 
+{% if site.lang == "cn" %}
+<p>Projects done by 2018 are presented on <a
+        href="https://istina.msu.ru/profile/iperminova/#projects">ISTINA</a></p>
+{% elsif site.lang == "en" %}
+<p>Projects done by 2018 are presented on <a
+        href="https://istina.msu.ru/profile/iperminova/#projects">ISTINA</a></p>
+{% else %}
 <p>Проекты, выполненные до 2018 года можно посмотреть на сайте <a
         href="https://istina.msu.ru/profile/iperminova/#projects">ИСТИНА</a></p>
+{% endif %}
