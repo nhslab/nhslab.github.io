@@ -24,11 +24,11 @@ pages:
   index:
     about: О нас
     abstract: Абстракт статьи
-    last_publication: Последнаяя публикация
+    last_publication: Последняя публикация
     general_information: Общая информация
     all_publications: Все публикации
     about_this_publication: Подробнее об это публикации
-    instagram: Немного нашей жизни в лаборатории. Подписывайтесь также на наш <a href="https://instagram.com/perminovalab">Instagram</a>
+    instagram: Немного нашей жизни в лаборатории. Подписывайтесь на нашу группу <a href="https://vk.com/perminova_lab">Вконтакте</a>
   publications:
     latest: Последние
     all: Все публикации
@@ -43,7 +43,7 @@ pages:
     address_title: Адрес
     address_text: Москва, 119991, Ленинские горы д.1 стр.3, Химический ф-т МГУ, к.429
     internet_title: Мы в сети
-    internet_text: Подписывайтесь на наш Instagram
+    internet_text: Подписывайтесь на нашу группу <a href="https://vk.com/perminova_lab">Вконтакте</a>
     room_title: Мы в реальной жизни
     room_text: Нас можно найти в основном здании Химического факультета в комнатах 429 или 430
     vk_title: Vkontakte group

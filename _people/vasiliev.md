@@ -7,7 +7,7 @@ position_en: 4nd-year student
 position_cn: 4nd-year student
 photo: /assets/images/avatars/vasiliev.jpg
 status: student
-weight: 4
+weight: 3
 istina: 
 email: 0
 ---

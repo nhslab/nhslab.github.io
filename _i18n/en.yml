@@ -28,7 +28,7 @@ pages:
     general_information: General information
     all_publications: All publications
     about_this_publication: About this publication
-    instagram: A little bit of our life in the laboratory. Subscribe also to our <a href="https://instagram.com/perminovalab">Instagram</a>
+    instagram: A little bit of our life in the laboratory. Subscribe also to our <a href="https://vk.com/perminova_lab">Vkontakte group</a>
   publications:
     latest: Latest
     all: All publications
@@ -43,7 +43,7 @@ pages:
     address_title: Address
     address_text: Moscow, 119991, Leninskie gory, 1 p.3, Chemical Faculty of Moscow State University, room 429
     internet_title: We are on the internet
-    internet_text: Follow our
+    internet_text: Follow our <a href="https://vk.com/perminova_lab">Vkontakte group</a>
     room_title: We are in real life
     room_text: You can find us in the main building of the Faculty of Chemistry in rooms 429 or 430
     vk_title: Vkontakte group

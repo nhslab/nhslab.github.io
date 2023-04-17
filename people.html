@@ -12,6 +12,8 @@ permalink: /people/
    #text {
     margin-left: 110px; /* Отступ от левого края */
    }
+   .peopleMargin {margin-bottom: 2px; }
+   .peopleMarginPic {margin-bottom: 15px; }
   </style>
  </head>
 
@@ -22,17 +24,17 @@ permalink: /people/
 			{% if people.status == "head" %}
 			<div class="col-lg-3 col-md-4 col-6">
 				{% if site.lang == "cn" %}
-					<h5><a href="{{ people.url }}">{{ people.name_cn }}</a></h5>
+					<h5 class="peopleMargin"><a href="{{ people.url }}">{{ people.name_cn }}</a></h5>
 					<p>{{ people.position_cn | markdownify }}</p>
 				{% elsif site.lang == "ru" %}
-					<h5><a href="{{ people.url }}">{{ people.name }}</a></h5>
-					<p>{{ people.position | markdownify }}</p>
+					<h5 class="peopleMargin"><a href="{{ people.url }}" class="peopleMargin">{{ people.name }}</a></h5>
+					<p class="peopleMargin">{{ people.position | markdownify }}</p>
 				{% elsif site.lang == "en"%}
-					<h5><a href="{{ people.url }}">{{ people.name_en }}</a></h5>
+					<h5 class="peopleMargin"><a href="{{ people.url }}">{{ people.name_en }}</a></h5>
 					<p>{{ people.position_en | markdownify }}</p>
 				{% endif %}
 				<a href="{{ people.url }}/"  class="d-block mb-4 h-100">
-					<img class="img-fluid img-thumbnail" src="{{ people.photo }}" alt="">
+					<img class="img-fluid img-thumbnail peopleMarginPic" src="{{ people.photo }}" alt="">
 				</a>
 		    </div>
 			{% endif %}
@@ -40,21 +42,27 @@ permalink: /people/
 	{% assign sorted = site.people | sort: 'weight' %}
 	{% for people in sorted %}
 		{% if people.status == "staff" %}
+		
+		
 			<div class="col-lg-3 col-md-4 col-6">
 			{% if site.lang == "cn" %}
-				<h5><a href="{{ people.url }}">{{ people.name_cn }}</a></h5>
-				<p>{{ people.position_cn | markdownify }}</p>
+				<h5 class="peopleMargin"><a href="{{ people.url }}">{{ people.name_cn }}</a></h5>
+				<p class="peopleMargin">{{ people.position_cn | markdownify }}</p>
 			{% elsif site.lang == "ru" %}
-				<h5><a href="{{ people.url }}">{{ people.name }}</a></h5>
-				<p>{{ people.position | markdownify }}</p>
+			
+				<h5 class="peopleMargin"><a href="{{ people.url }}" class="peopleMargin">{{ people.name }}</a></h5>
+				
+				<p class="peopleMargin">{{ people.position | markdownify }}</p>
+				
 			{% elsif site.lang == "en"%}
-				<h5><a href="{{ people.url }}">{{ people.name_en }}</a></h5>
-				<p>{{ people.position_en | markdownify }}</p>
+				<h5 class="peopleMargin"><a href="{{ people.url }}">{{ people.name_en }}</a></h5>
+				<p class="peopleMargin">{{ people.position_en | markdownify }}</p>
 			{% endif %}
 			<a href="{{ people.url }}/"  class="d-block mb-4 h-100">
-				<img class="img-fluid img-thumbnail" src="{{ people.photo }}" alt="">
+				<img class="img-fluid img-thumbnail peopleMarginPic" src="{{ people.photo }}" alt="">
 			</a>
 			</div>
+			
 		{% endif %}
 	{% endfor %}
 	{% assign sorted = site.people | sort: 'weight' %}
@@ -62,17 +70,17 @@ permalink: /people/
 		{% if people.status == "phd" %}
 		<div class="col-lg-3 col-md-4 col-6">
 		{% if site.lang == "cn" %}
-			<h5><a href="{{ people.url }}">{{ people.name_cn }}</a></h5>
-			<p>{{ people.position_cn | markdownify }}</p>
+			<h5 class="peopleMargin"><a href="{{ people.url }}">{{ people.name_cn }}</a></h5>
+			<p class="peopleMargin">{{ people.position_cn | markdownify }}</p>
 		{% elsif site.lang == "ru" %}
-			<h5><a href="{{ people.url }}">{{ people.name }}</a></h5>
-			<p>{{ people.position | markdownify }}</p>
+			<h5 class="peopleMargin"><a href="{{ people.url }}">{{ people.name }}</a></h5>
+			<p class="peopleMargin">{{ people.position | markdownify }}</p>
 		{% elsif site.lang == "en"%}
-			<h5><a href="{{ people.url }}">{{ people.name_en }}</a></h5>
-			<p>{{ people.position_en | markdownify }}</p>
+			<h5 class="peopleMargin"><a href="{{ people.url }}">{{ people.name_en }}</a></h5>
+			<p class="peopleMargin">{{ people.position_en | markdownify }}</p>
 		{% endif %}
 		<a href="{{ people.url }}/"  class="d-block mb-4 h-100">
-		<img class="img-fluid img-thumbnail" src="{{ people.photo }}" alt="">
+		<img class="img-fluid img-thumbnail peopleMarginPic" src="{{ people.photo }}" alt="">
 		</a>
 		</div>
 		{% endif %}
@@ -82,17 +90,17 @@ permalink: /people/
 		{% if people.status == "student" %}
 		<div class="col-lg-3 col-md-4 col-6">
 		{% if site.lang == "cn" %}
-			<h5><a href="{{ people.url }}">{{ people.name_cn }}</a></h5>
-			<p>{{ people.position_cn | markdownify }}</p>
+			<h5 class="peopleMargin"><a href="{{ people.url }}">{{ people.name_cn }}</a></h5>
+			<p class="peopleMargin">{{ people.position_cn | markdownify }}</p>
 		{% elsif site.lang == "ru" %}
-			<h5><a href="{{ people.url }}">{{ people.name }}</a></h5>
-			<p>{{ people.position | markdownify }}</p>
+			<h5 class="peopleMargin"><a href="{{ people.url }}">{{ people.name }}</a></h5>
+			<p class="peopleMargin">{{ people.position | markdownify }}</p>
 		{% elsif site.lang == "en"%}
-			<h5><a href="{{ people.url }}">{{ people.name_en }}</a></h5>
-			<p>{{ people.position_en | markdownify }}</p>
+			<h5 class="peopleMargin"><a href="{{ people.url }}">{{ people.name_en }}</a></h5>
+			<p class="peopleMargin">{{ people.position_en | markdownify }}</p>
 		{% endif %}
 		<a href="{{ people.url }}/"  class="d-block mb-4 h-100">
-		<img class="img-fluid img-thumbnail" src="{{ people.photo }}" alt="">
+		<img class="img-fluid img-thumbnail peopleMarginPic" src="{{ people.photo }}" alt="">
 		</a>
 		</div>
 		{% endif %}

@@ -7,7 +7,7 @@ position_en: 2th-year master
 position_cn: 2th-year master
 photo: /assets/images/avatars/sun.jpg
 status: student
-weight: 4
+weight: 1
 istina:
 email: 0
 ---

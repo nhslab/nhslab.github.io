@@ -118,9 +118,9 @@ sass:
   style: :expanded # You might prefer to minify using :compressed
 
 # Use the following plug-ins
-gems:
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+#gems:
+#  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+#  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
 
 # Exclude these files from your production _site
 exclude:
@@ -132,5 +132,7 @@ exclude:
 
 plugins:
   - jekyll-multiple-languages-plugin
+  - jekyll-sitemap
+  - jekyll-feed 
 
 languages: ["ru", "en", "cn"]

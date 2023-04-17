@@ -1,6 +1,6 @@
 ---
 authors:  Volikov Alexander B., Sobolev Nikita A., Khreptugova Anna N., Perminova Irina V.
-title: Static and dynamic sorption of DOM on Bond Elute PPL and Bondesil PPL sorbents: physical-chemical characteristics
+title: Static and dynamic sorption of DOM on Bond Elute PPL and Bondesil PPL sorbents:\ physical-chemical characteristics
 journal: Separation Science and Technology
 year: 2022
 pages:  
