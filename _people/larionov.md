@@ -7,7 +7,7 @@ position_en: 5th-year student
 position_cn: 5th-year student
 photo: /assets/images/avatars/larionov.jpg
 status: student
-weight: 2
+weight: 3
 istina: 
 email: 0
 ---

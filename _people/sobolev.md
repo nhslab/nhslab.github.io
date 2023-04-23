@@ -1,7 +1,7 @@
 ---
-name: Соболев Никита
-name_en: Sobolev Nikita
-name_cn: Sobolev Nikita
+name: Соболев Никита Андреевич
+name_en: Sobolev Nikita Andreevich
+name_cn: Sobolev Nikita Andreevich
 position: Научный сотрудник <br>Кандидат химических 
 position_en: Researcher. <br>PhD in Chemistry
 position_cn: Researcher. <br>PhD in Chemistry
