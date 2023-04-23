@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-54K69CEC1Z"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-54K69CEC1Z');
+</script>
+
+    <link type="image/png" sizes="16x16" rel="icon" href="/assets/images/site-logo/favicon16.png">
+<link type="image/png" sizes="32x32" rel="icon" href="/assets/images/site-logo/favicon32.png">
+<link type="image/png" sizes="96x96" rel="icon" href="/assets/images/site-logo/favicon96.png">
+<link type="image/png" sizes="120x120" rel="icon" href="/assets/images/site-logo/favicon120.png">
+
+    <title>Perminova Lab – Лаборатория природных гуминовых систем</title>
+
+        <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="Лаборатория природных гуминовых систем">
+    <meta property="og:description" content="Лаборатория природных гуминовых систем" />
+    
+    <meta name="author" content="Perminova Lab" />
+
+    
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="/en/style.css"/>
+    <link rel="alternate" type="application/rss+xml" title="Perminova Lab - Лаборатория природных гуминовых систем"
+          href="/en/feed.xml"/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+          integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+          crossorigin=""/>
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+</head>
+
+<body>
+<div class="wrapper-masthead">
+    <div class="container">
+        <header class="masthead clearfix">
+
+
+            <div class="site-info">
+                <a href="/en/" class="site-avatar"><img src="/assets/images/site-logo/nhslab.png"/></a>
+
+                <h1 class="site-name"><a href="/en/">Perminova Lab</a></h1>
+
+                <p class="site-description">Laboratory of natural humic systems</p>
+                <p class="site-description">Department of Medical Chemistry and Fine Organic Synthesis</p>
+                <p class="site-description"><a href="http://www.chem.msu.ru/rus/weldept.html">Department of Chemistry, Moscow State University named after M.V. Lomonosov</a></p>
+
+            </div>
+            <br>
+            <nav>
+                <a href="/en/" >Home</a>
+                <a href="/en/science" >Science</a>
+                <a href="/en/learning" >Students</a>
+                <a href="/en/projects" >Projects</a>
+                <a href="/en/people" >Team</a>
+                <a href="/en/publications" >Publications</a>
+                <a href="/en/contacts" style="color: red;">Contacts</a>
+                <a href="/en/conference" >HiT</a>
+                <a href="/en/mgumus" >MGUMUS</a>
+                
+                    <a href="/contacts/">
+                        <img src="/assets/images/site-logo/ru.png" alt="switch to russian" style="margin-top: 10"/>
+                    </a>
+                
+                
+                
+                    <a href="/cn/contacts/">
+                        <img src="/assets/images/site-logo/cn.jpg" alt="switch to chinese" style="margin-top: 10; width: 30px"/>
+                    </a>
+                
+            </nav>
+        </header>
+    </div>
+</div>
+
+<div id="main" role="main" class="container">
+    <div class="container">
+    <div class="row align-items-center">
+        <div class="col-lg-7 col-md-7 col-12">
+            <div class="container">
+                <h3>Address</h3>
+                <p>Moscow, 119991, Leninskie gory, 1 p.3, Chemical Faculty of Moscow State University, room 429</p>
+                <br>
+                <h3>E-mail</h3>
+                <p><a href="mailto:iperminova@gmail.com">iperminova@gmail.com</a></p>
+                <br>
+                <h3>We are on the internet</h3>
+                <p>Follow our <a href="https://vk.com/perminova_lab">Vkontakte group</a> </p>
+                <br>
+                <h3>We are in real life</h3>
+                <p>You can find us in the main building of the Faculty of Chemistry in rooms 429 or 430</p>
+                <br>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-12">
+            <div id="map-holder">
+                <div class="container fill">
+                    <div id="mapid"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr color="white">
+    <img src="/assets/images/photo/1.jpg"/>
+
+</div>
+
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
+<script>
+  var mymap = L.map('mapid').setView([55.702155, 37.525978], 17);
+  L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+    // attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+    maxZoom: 18,
+    id: 'mapbox/streets-v11',
+    tileSize: 512,
+    zoomOffset: -1,
+    accessToken: 'pk.eyJ1IjoiZHByZWVyIiwiYSI6ImNrYW5zZ3VrczA3dmIyeW55ZGJqa20yOXQifQ.cPDEsCNqrf35S_N4rZKeCw'
+  }).addTo(mymap);
+
+</script>
+
+
+</div>
+
+<div class="wrapper-footer">
+    <div class="container">
+        <footer class="footer">
+            
+<a href="mailto:iperminova@gmail.com"><i class="svg-icon email"></i></a>
+
+
+<a href="https://github.com/nhslab"><i class="svg-icon github"></i></a>
+<a href="https://instagram.com/perminovalab"><i class="svg-icon instagram"></i></a>
+
+
+
+
+
+
+
+        </footer>
+    </div>
+</div>
+
+
+
+</body>
+</html>
