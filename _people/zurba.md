@@ -2,7 +2,7 @@
 name: Журба Виктория
 name_en: Zhurba Victoria
 name_cn: Zhurba Victoria
-position: магистр 2-го года обучения
+position: бакалавр 2-го года обучения
 position_en: 2nd year student
 position_cn: 2nd year student
 photo: /assets/images/avatars/zurba.jpg
