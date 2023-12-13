@@ -1,14 +1,14 @@
 ---
-name: Мрясова Дарья
-name_en: Mraysova Daria 
-name_cn: Mraysova Daria
-position: студентка 4-го курса
-position_en: 4th-year student
-position_cn: 4th-year student
+name: Крючкова Дарья
+name_en: Kryuchkova Daria 
+name_cn: Kryuchkova Daria
+position: студентка 5-го курса
+position_en: 5th-year student
+position_cn: 5th-year student
 photo: /assets/images/avatars/mraysova.jpg
 status: student
-weight: 3
+weight: 5
 istina: 
-email: 0
+email: dkriuchkova01205@gmail.com
 ---
-
+Область научных интересов:  Сорбция меди и никеля, сорбция на модифицированных ГВ, выщелачивание, мелиоранты

@@ -20,6 +20,7 @@ templates:
     laboratory: Laboratory of natural humic systems
     department: Department of Medical Chemistry and Fine Organic Synthesis
     faculty: Department of Chemistry, Moscow State University named after M.V. Lomonosov
+    ecology: Ecology
 pages:
   index:
     about: About

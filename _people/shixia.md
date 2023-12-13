@@ -2,9 +2,9 @@
 name: Сюе Шися
 name_en: Xue Shixia
 name_cn: 薛诗夏
-position: магистр 1-го года обучения
-position_en: 1st-year master
-position_cn: 硕士研究生一年级
+position: магистр 2-го года обучения
+position_en: 2nd-year master
+position_cn: 2nd-year master
 photo: /assets/images/avatars/shixia.jpeg
 status: student
 weight: 2

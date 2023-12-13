@@ -20,6 +20,7 @@ templates:
     laboratory: 天然腐殖质系统实验室
     department: 药物化学与精细有机合成教研室
     faculty: 以 M.V. 罗蒙诺索夫命名的莫斯科国立大学化学系
+    ecology: Ecology
 pages:
   index:
     about: 关于我们
