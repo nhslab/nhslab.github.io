@@ -1,0 +1,5 @@
+The Chairman and deputies of the Norilsk City Council, Alexander Pestryakov, Konstantin Gorbunov, and Natalia Karmanovskaya, met with a professor, students, and graduate students from Lomonosov Moscow State University.
+
+Since 2020, the capital team from the country's most prestigious university has been working in Norilsk every summer under a contract with "Norilsk Nickel." The aim of the representatives from the scientific community, primarily from the Faculty of Chemistry at MSU, is to use humic substances (products of the decomposition of all organic matter) to make industrial production in Norilsk more environmentally friendly and safer for the surrounding environment, as well as to reclaim previously contaminated areas of soil and water bodies.
+
+##### Full text: [The Polar Truth](https://gazetazp.ru/news/obschestvo/zeljonaja-himija-i-guminovye-veschestva-pomogut-uluchshit-jekologiju-norilska.html) and [the website of the city of Norilsk](https://www.norilsk-city.ru/press/news/197467/document200957.shtml)
