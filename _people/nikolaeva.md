@@ -2,12 +2,12 @@
 name: Николаева Настя
 name_en: Nikolaeva Nastya
 name_cn: Nikolaeva Nastya
-position: студентка 4-го курса
-position_en: 4th-year student
-position_cn: 4th-year student
+position: студентка 5-го курса
+position_en: 5th-year student
+position_cn: 5th-year student
 photo: /assets/images/avatars/nikolaeva.jpg
 status: student
-weight: 6
+weight: 5
 istina: 
 email: nnik3003@bk.ru 
 ---

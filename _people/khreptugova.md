@@ -2,9 +2,9 @@
 name: Хрептугова Анна
 name_en: Khreptugova Anna
 name_cn: Khreptugova Anna
-position: аспирант 4-го года обучения
-position_en: 4th year PhD student
-position_cn: 4th year PhD student
+position: аспирант 5-го года обучения
+position_en: 5th year PhD student
+position_cn: 5th year PhD student
 photo: /assets/images/avatars/khreptugova.jpg
 status: phd
 weight: 1

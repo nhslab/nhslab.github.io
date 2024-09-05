@@ -2,12 +2,12 @@
 name: Данила Горбунов
 name_en: Danila Gorbunov
 name_cn: Danila Gorbunov
-position: студент 3-го курса
-position_en: 3rd-year student
-position_cn: 3rd-year student
+position: студент 4-го курса
+position_en: 4th-year student
+position_cn: 4th-year student
 photo: /assets/images/avatars/gorbunov.jpg
 status: student
-weight: 7
+weight: 6
 istina: 
 email: danila.gorbunov@chemistry.msu.ru
 ---

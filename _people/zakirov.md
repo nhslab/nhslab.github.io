@@ -2,9 +2,9 @@
 name: Виталий Закиров
 name_en: Vitalii Zakirov
 name_cn: Vitalii Zakirov
-position: студент 4-го курса
-position_en: 4th-year student
-position_cn: 4th-year student
+position: студент 5-го курса
+position_en: 5th-year student
+position_cn: 5th-year student
 photo: /assets/images/avatars/zakirov.jpg
 status: student
 weight: 6
