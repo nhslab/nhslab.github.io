@@ -1,0 +1,1 @@
+##### From August 25 to 30, 2024, the 22nd meeting of the International Society of Humic Substances took place in Rimini, Italy, on the topic "The Role of Natural Organic Matter and Humic Substances in Achieving Sustainable Development Goals." Our colleagues from the laboratory performed admirably and shared the results of their research!
