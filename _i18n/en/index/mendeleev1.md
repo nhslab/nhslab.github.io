@@ -1,1 +1,1 @@
-## Participation in the XXII Mendeleev Congress on General and Applied Chemistry
+## Participation in the XXII Mendeleev Congress on General<br> and Applied Chemistry

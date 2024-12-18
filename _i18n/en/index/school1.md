@@ -1,3 +1,3 @@
-## Начало нового сотрудничества с университетской гимназией!
+## The beginning of a new collaboration with the University Gymnasium!
 
 

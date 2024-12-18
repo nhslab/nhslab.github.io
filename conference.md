@@ -7,6 +7,8 @@ permalink: /conference/
 
 Помимо этого, мы являемся организаторами Международной конференции по гуминовым инновационным технологиям Отделения СНГ Международного Гуминового Общества и МГУ:
 
+- [HiT-2021](http://www.humus.ru/hit-2024/ru/)
+- [HiT-2021](http://www.humus.ru/hit-2022/ru/)
 - [HiT-2021](http://www.humus.ru/hit-2021/ru/)
 - [HiT-2019](http://www.humus.ru/hit-2019/ru/)
 - [HiT-2017](http://www.humus.ru/hit-2017/ru/)
@@ -20,7 +22,8 @@ permalink: /conference/
 Students, postgraduates and all our team regularly participate in Russian and international conferences (IHSS, ACS, ASMS, IUPAC and many others), where we make oral and poster presentations.
 
 In addition, we are the organizers of the International Conference on Humic Innovative Technologies of the CIS Branch of the International Humic Society and Moscow State University:
-
+- [HiT-2021](http://www.humus.ru/hit-2024/en/)
+- [HiT-2021](http://www.humus.ru/hit-2022/en/)
 - [HiT-2021](http://www.humus.ru/hit-2021/en/)
 - [HiT-2019](http://www.humus.ru/hit-2019/eng/)
 - [HiT-2017](http://www.humus.ru/hit-2017/eng/)

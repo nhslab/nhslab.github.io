@@ -1,3 +1,3 @@
-## Интерьвью ЕВРАЗИМУТ<br><br>
+## Интерьвью ЕВРАЗИМУТ
 
 <img src="assets/images/photo/azimut.jpg">

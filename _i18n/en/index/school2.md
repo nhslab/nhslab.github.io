@@ -1,4 +1,4 @@
 
-Наша лаборатория приняла участие в ярмарке проектов и представила школьникам Университетской гимназии проект на тему «Изучение оптических свойств шлам-лигнина и природного органического вещества для контроля загрязнения озера Байкал». Позднее мы провели увлекательную экскурсию для школьников из Университетской гимназии! Мы познакомились поближе, попили чай с вкусным пирогом и показали ребятам самые интересные места нашего химического факультета.
+Our laboratory participated in a project fair and presented to the students of the University Gymnasium a project on the topic "Studying the Optical Properties of Sludge-Lignin and Natural Organic Matter for Monitoring Pollution in Lake Baikal." Later, we conducted an exciting tour for the students from the University Gymnasium! We got to know each other better, enjoyed tea with delicious pie, and showed the students the most interesting places in our chemistry department.
 
 
