@@ -2,12 +2,12 @@
 name: Журба Виктория
 name_en: Zhurba Victoria
 name_cn: Zhurba Victoria
-position: бакалавр 4-го года обучения
-position_en: 4th year student
-position_cn: 4th year student
+position: Магистр 1-го года обучения
+position_en: 1st year master
+position_cn: 1st year master
 photo: /assets/images/avatars/zurba.jpg
 status: student
-weight: 7
+weight: 5
 istina: 
 email: 0
 ---

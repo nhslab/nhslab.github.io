@@ -2,12 +2,12 @@
 name: Гаджибагомедов Рашид
 name_en: Gadzhimagomedov Rashid
 name_cn: Gadzhimagomedov Rashid
-position: аспирант 4-го года обучения
-position_en: 4th year PhD student
-position_cn: 4th year PhD student
+position: младший научный сотрудник
+position_en: Junior Researcher 
+position_cn: Junior Researcher
 photo: /assets/images/avatars/Rashid.jpg
-status: phd
-weight: 2
+status: stuff
+weight: 5
 istina: 
 email: 0
 ---

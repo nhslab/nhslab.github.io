@@ -2,12 +2,12 @@
 name: Тимур Гусманов
 name_en: Timur Gusmanov
 name_cn: Timur Gusmanov
-position: студент 5-го курса
-position_en: 5th-year student
-position_cn: 5th-year student
+position: студент 6-го курса
+position_en: 6th-year student
+position_cn: 6th-year student
 photo: /assets/images/avatars/nophoto.jpg
 status: student
-weight: 5
+weight: 4
 istina: 
 email: gusmanovtimur98@gmail.com
 ---

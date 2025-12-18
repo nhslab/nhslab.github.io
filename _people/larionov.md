@@ -2,12 +2,12 @@
 name: Ларионов Константин
 name_en: Larionov Konstantin
 name_cn: Larionov Konstantin
-position: аспирант 1-го года обучения
-position_en: 1st year PhD student
-position_cn: 1st year PhD student
+position: аспирант 2-го года обучения
+position_en: 2nd year PhD student
+position_cn: 2nd year PhD student
 photo: /assets/images/avatars/larionov.jpg
 status: phd
-weight: 4
+weight: 5
 istina: 
 email: 0
 ---
