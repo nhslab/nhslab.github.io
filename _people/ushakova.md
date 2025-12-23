@@ -2,12 +2,12 @@
 name: Ушакова Карина
 name_en: Ushakova Karina 
 name_cn: Ushakova Karina 
-position: студентка 6-го курса
-position_en: 6th-year student
-position_cn: 6th-year student
+position: аспирант 1-ого года обучения
+position_en: 1st-year student
+position_cn: 1st-year student
 photo: /assets/images/avatars/ushakova.jpg
-status: student
-weight: 4
+status: phd
+weight: 6
 istina: 
 email:  noogen@inbox.ru
 ---
@@ -15,4 +15,4 @@ email:  noogen@inbox.ru
 
 Область научных интересов: Получение железосодержащих препаратов с использованием гуминовых макролигандов для коррекции железодефицитной анемии 
 
-Хобби: Норильск
+Хобби: Медицинская химия
